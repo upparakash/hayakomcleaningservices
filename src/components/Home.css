@@ -1,0 +1,203 @@
+/* =======================
+   HERO SLIDER MAIN STYLE
+========================= */
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full screen */
+  overflow: hidden;
+}
+
+.slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Dark Overlay for Text Visibility */
+.slide-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/* Text on Image */
+.slide-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  width: 85%;
+  max-width: 900px;
+  padding: 0 10px;
+}
+
+.slide-text h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.slide-text p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.hero-btn {
+  background: #d3aa4a;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.hero-btn:hover {
+  background: #c29832;
+}
+
+/* Navigation Arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.6);
+  border: none;
+  font-size: 2.2rem;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.arrow:hover {
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.left {
+  left: 15px;
+}
+
+.right {
+  right: 15px;
+}
+
+/* =======================
+      RESPONSIVE CSS
+========================= */
+
+/* Large Screens (4K & 2K) */
+@media (min-width: 1600px) {
+  .slide-text h1 {
+    font-size: 3.6rem;
+  }
+  .slide-text p {
+    font-size: 1.4rem;
+  }
+  .hero-btn {
+    font-size: 1.3rem;
+    padding: 14px 38px;
+  }
+}
+
+/* Laptops & Desktops */
+@media (max-width: 1200px) {
+  .slide-text h1 {
+    font-size: 2.4rem;
+  }
+  .slide-text p {
+    font-size: 1rem;
+  }
+}
+
+/* Tablets & iPads */
+@media (max-width: 992px) {
+  .slider-container {
+    height: 80vh;
+  }
+  .slide-text h1 {
+    font-size: 2rem;
+  }
+  .slide-text p {
+    font-size: 0.95rem;
+  }
+  .arrow {
+    font-size: 1.8rem;
+    padding: 6px 10px;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 768px) {
+  .slider-container {
+    height: 75vh;
+  }
+
+  .slide-text h1 {
+    font-size: 1.6rem;
+  }
+
+  .slide-text p {
+    font-size: 0.9rem;
+  }
+
+  .hero-btn {
+    font-size: 1rem;
+    padding: 10px 26px;
+  }
+
+  .arrow {
+    font-size: 1.5rem;
+    padding: 5px 8px;
+  }
+
+  .left {
+    left: 8px;
+  }
+
+  .right {
+    right: 8px;
+  }
+}
+
+/* Small Mobile (≤ 480px) */
+@media (max-width: 480px) {
+  .slider-container {
+    height: 65vh;
+  }
+
+  .slide-text {
+    width: 92%;
+  }
+
+  .slide-text h1 {
+    font-size: 1.3rem;
+  }
+
+  .slide-text p {
+    font-size: 0.85rem;
+  }
+
+  .hero-btn {
+    font-size: 0.9rem;
+    padding: 8px 20px;
+  }
+
+  .arrow {
+    font-size: 1.3rem;
+  }
+}

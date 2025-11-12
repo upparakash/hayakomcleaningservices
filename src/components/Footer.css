@@ -1,0 +1,69 @@
+.footer {
+  background: #2f3145;
+  padding: 14px 5%;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-icon {
+  font-size: 16px;
+}
+
+/* Make links white and clickable */
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .footer-text {
+    font-size: 13px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .footer-text {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 480px) {
+  .footer-text {
+    font-size: 12px;
+  }
+
+  .footer {
+    padding: 10px 4%;
+  }
+}
