@@ -1,49 +1,50 @@
+
 import React from "react";
 import "./WhyChooseUs.css";
 
 const WhyChooseUs = () => {
   const content = {
     en: {
-      title: "Why Choose Us",
+      title: "Why Choose Hayakom Cleaning Service Kuwait",
       cards: [
         {
           icon: "👍",
-          heading: "Exceptional Quality & Customer Satisfaction",
-          text: "At Semma United Contracting Service, we are committed to providing outstanding quality and ensuring customer satisfaction with every service."
+          heading: "Exceptional Cleaning Quality & Customer Satisfaction",
+          text: "At Hayakom Cleaning Service, we deliver exceptional quality and ensure complete customer satisfaction for every cleaning project — from home cleaning and maid service to car cleaning and deep cleaning across Kuwait.",
         },
         {
           icon: "📅",
-          heading: "Reliable Scheduling",
-          text: "Known for our reliability, transparency, and attention to detail, we offer flexible scheduling options to easily fit our services into your busy life and meet your specific needs."
+          heading: "Reliable Cleaning Scheduling",
+          text: "We’re known for our reliability, transparency, and flexible cleaning schedules. Whether you need regular maid service, one-time deep cleaning, or move-in/move-out cleaning in Kuwait — we fit our services around your busy life.",
         },
         {
           icon: "🌍",
-          heading: "Eco-friendly & Effective Cleaning",
-          text: "Our team of highly trained professionals uses eco-friendly, effective cleaning products to ensure a safe and healthy environment for you and your family."
-        }
-      ]
+          heading: "Eco-friendly Home & Car Cleaning Services",
+          text: "Our trained professionals use eco-friendly products for safe and effective cleaning — including sofa cleaning, tile & floor cleaning, and car detailing. We care about your health and the environment.",
+        },
+      ],
     },
 
     ar: {
-      title: "لماذا تختارنا",
+      title: "لماذا تختار خدمات هياكم للتنظيف في الكويت",
       cards: [
         {
           icon: "👍",
-          heading: "الجودة الاستثنائية ورضا العملاء",
-          text: "في هالة لخدمات التنظيف، نلتزم بتقديم جودة استثنائية وضمان رضا العملاء مع كل خدمة."
+          heading: "جودة تنظيف استثنائية ورضا العملاء",
+          text: "في شركة هياكم لخدمات التنظيف، نقدم جودة عالية ونضمن رضا العملاء في جميع الخدمات مثل تنظيف المنازل، وخدمات العاملات، وتنظيف السيارات، والتنظيف العميق في جميع مناطق الكويت.",
         },
         {
           icon: "🌍",
-          heading: "التنظيف الصديق للبيئة والفعال",
-          text: "يستخدم فريقنا المدرب تدريبًا عاليًا منتجات تنظيف صديقة للبيئة وفعالة لضمان بيئة آمنة وصحية لك ولعائلتك."
+          heading: "تنظيف صديق للبيئة وفعال",
+          text: "يستخدم فريقنا منتجات تنظيف صديقة للبيئة وفعالة لتوفير خدمات تنظيف الأرضيات والبلاط، وتنظيف الكنب والسيارات بطريقة آمنة وصحية.",
         },
         {
           icon: "⏰",
           heading: "الموثوقية والجدولة المرنة",
-          text: "نحن معروفون بالموثوقية والشفافية، ونقدم خيارات جدولة مرنة لتناسب خدماتنا مع جدولك المزدحم بسهولة."
-        }
-      ]
-    }
+          text: "نحن معروفون بالموثوقية والمرونة في جدولة خدمات التنظيف، سواء كانت تنظيف المنازل أو تنظيف الانتقال أو خدمات العاملات المنزلية في الكويت.",
+        },
+      ],
+    },
   };
 
   return (

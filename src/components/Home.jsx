@@ -12,38 +12,38 @@ import WhyChooseUs from "./WhyChooseUs";
 import "./Home.css";
 
 const Home = () => {
-  const images = [
-    {
-      src: Image1,
-      title: "Quality Contracting Services You Can Trust",
-      desc: "Delivering excellence and reliability throughout Kuwait",
-    },
-    {
-      src: Image2,
-      title: "We Build with Integrity & Professionalism",
-      desc: "Providing top-notch construction and maintenance solutions",
-    },
-    {
-      src: Image3,
-      title: "Quality Contracting Services You Can Trust",
-      desc: "Delivering excellence and reliability throughout Kuwait",
-    },
-    {
-      src: Image4,
-      title: "We Build with Integrity & Professionalism",
-      desc: "Providing top-notch construction and maintenance solutions",
-    },
-     {
-      src: Image5,
-      title: "We Build with Integrity & Professionalism",
-      desc: "Providing top-notch construction and maintenance solutions",
-    },
-    {
-      src: Image6,
-      title: "We Build with Integrity & Professionalism",
-      desc: "Providing top-notch construction and maintenance solutions",
-    },
-  ];
+ const images = [
+  {
+    src: Image1,
+    title: "Professional Home Cleaning Services in Kuwait",
+    desc: "Reliable maid, deep cleaning, and floor polishing services for homes and offices.",
+  },
+  {
+    src: Image2,
+    title: "Expert Maid and Housekeeping Services in Kuwait",
+    desc: "Affordable, professional maid and housekeeping solutions you can trust.",
+  },
+  {
+    src: Image3,
+    title: "Car and Sofa Cleaning Services in Kuwait",
+    desc: "Specialized car wash and sofa deep cleaning using modern equipment.",
+  },
+  {
+    src: Image4,
+    title: "Tile & Floor Cleaning Service Across Kuwait",
+    desc: "High-quality tile scrubbing, floor polishing, and stain removal services.",
+  },
+  {
+    src: Image5,
+    title: "Move-In / Move-Out Cleaning Services in Kuwait",
+    desc: "Complete cleaning for apartments, offices, and villas before or after shifting.",
+  },
+  {
+    src: Image6,
+    title: "Trusted Cleaning Company in Kuwait",
+    desc: "Hayakom Cleaning Service — your all-in-one home, maid, and car cleaning solution.",
+  },
+];
 
   const [current, setCurrent] = useState(0);
 
@@ -68,7 +68,11 @@ const Home = () => {
       {/* ✅ Hero Slider Section */}
       <div className="slider-container" id="home">
         <div className="slide">
-          <img src={images[current].src} alt="Slide" className="slide-image" />
+          {/* <img src={images[current].src} alt="Slide" className="slide-image" /> */}
+          <img
+  src={images[current].src}
+  alt={images[current].title}
+/>
           <div className="slide-overlay" />
 
           <div className="slide-text">
