@@ -1,0 +1,62 @@
+/* Floating Icons Wrapper */
+.floating-wrapper {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Buttons container */
+.contact-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: all 0.4s ease-in-out;
+  transform-origin: bottom;
+}
+
+.contact-buttons.hide {
+  transform: scale(0);
+  opacity: 0;
+}
+
+.contact-buttons.show {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Icon circles */
+.icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.phone {
+  background-color: #00c853; /* Green */
+}
+
+.whatsapp {
+  background-color: #25d366; /* WhatsApp green */
+}
+
+.hide-btn {
+  background-color: #ff5252; /* Red */
+  margin-top: 12px;
+}
+
+/* Rotate close icon when menu closed */
+.rotate {
+  transform: rotate(45deg);
+  transition: 0.4s;
+}

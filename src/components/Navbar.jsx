@@ -1,71 +1,93 @@
 import React, { useState } from "react";
-import logo from "./images/logo2.png";
+import "./Navbar.css";
+import logo from "./images/Logonew.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md py-4 px-6 flex items-center justify-between sticky top-0 z-50">
+    <nav className="navbar">
       {/* Logo */}
-      <a href="#home" className="flex items-center">
-        <img src={logo} alt="logo" className="h-12 w-auto" />
+      <a href="#home" className="nav-logo">
+        <img src={logo} alt="Logo" />
       </a>
 
       {/* Desktop Menu */}
-      <div className="hidden md:flex items-center space-x-6 text-gray-700 font-medium">
-        {[
-          { name: "Home", to: "#home" },
-          { name: "About Us", to: "#about" },
-          { name: "Our Services", to: "#services" },
-          { name: "Book Now", to: "#book" },
-        ].map((link, index, arr) => (
-          <React.Fragment key={link.name}>
-            <a
-              href={link.to}
-              className="relative group hover:text-pink-600 transition"
-            >
-              {link.name}
-              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-pink-500 transition-all duration-300 group-hover:w-full"></span>
-            </a>
+      <ul className="nav-menu">
+        <li><a href="#home">Home</a></li>
 
-            {index !== arr.length - 1 && (
-              <span className="h-6 w-[1.5px] bg-gray-300 rounded"></span>
-            )}
-          </React.Fragment>
-        ))}
+        {/* Mega Dropdown */}
+        <li className="dropdown">
+          <a href="#services" className="dropbtn">Services</a>
+
+          <div className="dropdown-content">
+            <div className="col">
+              <h4>DETAILED CLEANING</h4>
+              <a>General Cleaning</a>
+              <a>Deep Cleaning</a>
+              <a>Storage Area</a>
+              <a>Window Cleaning</a>
+              <a>Outdoor Cleaning</a>
+              <a>Car Parking Umbrella</a>
+              <a>Facade Cleaning</a>
+            </div>
+
+            <div className="col">
+              <h4>SPECIAL CARE</h4>
+              <a>Upholstery Cleaning</a>
+              <a>Carpet Cleaning</a>
+              <a>Mattress Cleaning</a>
+            </div>
+
+            <div className="col">
+              <h4>KITCHEN CLEANING</h4>
+              <a>Kitchen</a>
+              <a>Kitchen Appliances</a>
+            </div>
+
+            <div className="col">
+              <h4>PEST CONTROL</h4>
+              <a>Pest Control</a>
+              <a>Sterilization</a>
+            </div>
+          </div>
+        </li>
+
+
+        {/* Newly Added */}
+        <li><a href="#teams">Teams</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      {/* Mobile Menu Icon */}
+      <div className="mobile-icon" onClick={() => setOpen(!open)}>
+        {open ? "✖" : "☰"}
       </div>
 
-      {/* Mobile Menu Button */}
-      <div className="md:hidden">
-        <button onClick={() => setOpen(!open)} className="focus:outline-none">
-          {open ? (
-            <span className="text-2xl font-bold">&#10005;</span> // X icon
-          ) : (
-            <span className="text-3xl">&#9776;</span> // Hamburger icon
-          )}
-        </button>
-      </div>
+      {/* Mobile Menu */}
+      <div className={`mobile-menu ${open ? "show" : ""}`}>
+        <a href="#home">Home</a>
 
-      {/* Mobile Dropdown Menu */}
-      {open && (
-        <div className="absolute top-20 left-0 w-full bg-white shadow-md flex flex-col py-4 items-center text-gray-700 font-medium space-y-4 md:hidden">
-          {[
-            { name: "Home", to: "#home" },
-            { name: "About Us", to: "#about" },
-            { name: "Our Services", to: "#services" },
-            { name: "Book Now", to: "#book" },
-          ].map((link) => (
-            <a
-              key={link.name}
-              href={link.to}
-              onClick={() => setOpen(false)}
-              className="hover:text-pink-600 transition"
-            >
-              {link.name}
-            </a>
-          ))}
-        </div>
-      )}
+        <details>
+          <summary href="#services">Services</summary>
+          <div className="mobile-sub">
+            <p>General Cleaning</p>
+            <p>Deep Cleaning</p>
+            <p>Carpet Cleaning</p>
+            <p>Kitchen Cleaning</p>
+            <p>Pest Control</p>
+          </div>
+        </details>
+
+        {/* Newly Added */}
+        <a href="#teams">Teams</a>
+        <a href="#reviews">Clients</a>
+
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
     </nav>
   );
 };

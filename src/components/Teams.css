@@ -1,0 +1,99 @@
+.teams-container {
+  width: 100%;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.teams-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+.teams-grid {
+  max-width: 1200px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* ⭐ 3 cards per row */
+  gap: 25px;
+}
+
+.team-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  text-align: left;
+}
+
+.team-header {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.team-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-name {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #009688;
+  text-transform: uppercase;
+}
+
+.team-role {
+  margin-top: 4px;
+  font-size: 0.95rem;
+  color: #777;
+}
+
+/* ⭐ Horizontal line */
+.team-line {
+  width: 100%;
+  height: 2px;
+  background: #8fd5d1;
+  margin: 15px 0;
+}
+
+.team-desc {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.5rem;
+}
+
+/* =============================
+   RESPONSIVE BREAKPOINTS
+============================= */
+
+@media (max-width: 992px) {
+  .teams-grid {
+    grid-template-columns: repeat(2, 1fr); /* ⭐ 2 per row */
+  }
+}
+
+@media (max-width: 576px) {
+  .teams-grid {
+    grid-template-columns: 1fr; /* ⭐ 1 per row */
+  }
+
+  .team-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .team-card {
+    text-align: center;
+  }
+
+  .team-line {
+    margin: 12px auto;
+  }
+}

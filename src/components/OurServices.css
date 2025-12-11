@@ -97,3 +97,44 @@
     font-size: 32px;
   }
 }
+
+/* READ MORE Link */
+.read-more {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+
+
+.read-more:hover {
+  color: #00b3ff;
+}
+
+.read-more:hover .arrow {
+  margin-left: 12px;
+}
+
+/* Responsive: Tablet */
+@media (max-width: 992px) {
+  .read-more {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+}
+
+/* Responsive: Mobile */
+@media (max-width: 600px) {
+  .read-more {
+    margin-top: 12px;
+    font-size: 14px;
+  }
+
+ 
+}
