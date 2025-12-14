@@ -1,6 +1,6 @@
 import React from "react";
 import "./Teams.css";
-import OperationalManager from './images/OperationalManager.jpeg';
+import OperationalManager from './images/manager.jpeg';
 import TeamLead from './images/TeamLead.jpeg';
 
 const Teams = () => {
