@@ -58,7 +58,7 @@ const Navbar = () => {
         <li><a href="#teams">Teams</a></li>
         <li><a href="#reviews">Reviews</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#book">Contact</a></li>
       </ul>
 
       {/* Mobile Menu Icon */}
@@ -86,7 +86,7 @@ const Navbar = () => {
         <a href="#reviews">Clients</a>
 
         <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a href="#book">Contact</a>
       </div>
     </nav>
   );

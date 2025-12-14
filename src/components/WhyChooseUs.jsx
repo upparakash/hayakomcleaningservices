@@ -38,7 +38,7 @@ const WhyChooseUs = () => {
             <p>{item.text}</p>
 
             <a href={item.link} className="why-read-more">
-              READ MORE <span className="arrow">→</span>
+              READ MORE <span className="arrow1">→</span>
             </a>
           </div>
         ))}

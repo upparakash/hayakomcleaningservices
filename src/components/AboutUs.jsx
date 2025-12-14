@@ -48,37 +48,7 @@ const AboutUs = () => {
       </section>
 
       {/* Arabic Section */}
-      <section className="about-section rtl">
-        <div className="about-image">
-          <img
-            src={AboutImgArabic}
-            alt="شركة هياكم لخدمات التنظيف في الكويت - تنظيف المنازل والسيارات والسجاد"
-          />
-        </div>
-
-        <div className="about-content">
-          <h2 className="about-title">ماذا عنا</h2>
-          <h3 className="about-subtitle">نحن ننظف من أجلك منذ عام 2016</h3>
-
-          <p className="about-text">
-            <strong>شركة هياكم لخدمات التنظيف</strong> في الكويت تقدم خدمات تنظيف احترافية 
-            تشمل <strong>تنظيف المنازل</strong>، <strong>خدمة الخادمات</strong>، 
-            <strong>تنظيف السيارات</strong>، و<strong>تنظيف الأرضيات والسجاد</strong> 
-            بأسعار مناسبة وجودة عالية.
-          </p>
-
-          <p className="about-text">
-            نضمن من خلال فريقنا المحترف تقديم <strong>خدمات تنظيف عميق</strong> و
-            <strong>تنظيف ما قبل وبعد الانتقال</strong> لعملائنا في المنازل والمكاتب. 
-            نستخدم مواد تنظيف صديقة للبيئة وأدوات حديثة لضمان أفضل النتائج.
-          </p>
-
-          <p className="about-text">
-            التزامنا بالشفافية والتميز جعلنا من أبرز <strong>شركات التنظيف في الكويت</strong>. 
-            نحن نعمل على جعل كل تجربة تنظيف مع هياكم مريحة وآمنة وصحية في كل مرة.
-          </p>
-        </div>
-      </section>
+      
     </div>
   );
 };

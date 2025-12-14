@@ -1,25 +1,27 @@
 import React from "react";
 import "./Teams.css";
+import OperationalManager from './images/OperationalManager.jpeg';
+import TeamLead from './images/TeamLead.jpeg';
 
 const Teams = () => {
   const teamMembers = [
     {
       img: "https://i.ibb.co/2PZQF39/profile1.jpg",
-      name: "AHMED ABDOU",
+      name: "Raja Babu",
       role: "Sales Executive",
-      desc: "A Sales Executive at BLEACH®, Ahmed is a fanatic when it comes to driving business sales for us. He is a humble guy who is easy to approach. Ahmed loves playing football when away from work."
+      desc: "A Sales Executive at BLEACH®, Raja is a fanatic when it comes to driving business sales for us. He is a humble guy who is easy to approach. Ahmed loves playing football when away from work."
     },
     {
-      img: "https://i.ibb.co/2PZQF39/profile1.jpg",
+      img: OperationalManager,
       name: "SARAH SMITH",
       role: "Operations Manager",
       desc: "Sarah manages day-to-day operations and ensures customer satisfaction. Her leadership and work ethic make her a key pillar of our team."
     },
     {
-      img: "https://i.ibb.co/2PZQF39/profile1.jpg",
-      name: "MICHAEL JOHNSON",
-      role: "Cleaning Specialist",
-      desc: "Michael specializes in deep cleaning and customer service. He takes pride in delivering exceptional results with every task."
+      img: TeamLead,
+      name: "Uppar Akash",
+      role: "Team Lead",
+      desc: "Akash specializes in deep cleaning and customer service. He takes pride in delivering exceptional results with every task."
     },
   ];
 
