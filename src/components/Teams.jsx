@@ -2,20 +2,21 @@ import React from "react";
 import "./Teams.css";
 import OperationalManager from './images/manager.jpeg';
 import TeamLead from './images/TeamLead.jpeg';
+import SalesExecutive from './images/rajababu.jpeg'
 
 const Teams = () => {
   const teamMembers = [
     {
-      img: "https://i.ibb.co/2PZQF39/profile1.jpg",
+      img: SalesExecutive,
       name: "Raja Babu",
       role: "Sales Executive",
       desc: "A Sales Executive at BLEACH®, Raja is a fanatic when it comes to driving business sales for us. He is a humble guy who is easy to approach. Ahmed loves playing football when away from work."
     },
     {
       img: OperationalManager,
-      name: "SARAH SMITH",
+      name: "Srinivas",
       role: "Operations Manager",
-      desc: "Sarah manages day-to-day operations and ensures customer satisfaction. Her leadership and work ethic make her a key pillar of our team."
+      desc: "Srinivas manages day-to-day operations and ensures customer satisfaction. Her leadership and work ethic make her a key pillar of our team."
     },
     {
       img: TeamLead,
