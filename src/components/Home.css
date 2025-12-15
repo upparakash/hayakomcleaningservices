@@ -1,26 +1,48 @@
 /* =======================
    HERO SLIDER MAIN STYLE
 ========================= */
+/* ===== SLIDER CONTAINER ===== */
 .slider-container {
   position: relative;
   width: 100%;
-  height: 100vh; /* Full screen */
+  height: 100vh; /* Desktop full screen */
   overflow: hidden;
 }
 
+/* Reduce height on smaller screens */
+@media (max-width: 1024px) {
+  .slider-container {
+    height: 80vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider-container {
+    height: 65vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider-container {
+    height: 55vh;
+  }
+}
+
+/* ===== SLIDE ===== */
 .slide {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
+/* ===== IMAGE ===== */
 .slide-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; /* Maintains aspect ratio */
 }
 
-/* Dark Overlay for Text Visibility */
+/* ===== OVERLAY ===== */
 .slide-overlay {
   position: absolute;
   top: 0;
@@ -30,7 +52,7 @@
   background: rgba(0, 0, 0, 0.45);
 }
 
-/* Text on Image */
+/* ===== TEXT CONTAINER ===== */
 .slide-text {
   position: absolute;
   top: 50%;
@@ -40,7 +62,56 @@
   text-align: center;
   width: 85%;
   max-width: 900px;
-  padding: 0 10px;
+  padding: 0 15px;
+}
+
+/* ===== TEXT RESPONSIVENESS ===== */
+.slide-text h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.slide-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .slide-text h1 {
+    font-size: 2.4rem;
+  }
+
+  .slide-text p {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .slide-text {
+    width: 90%;
+  }
+
+  .slide-text h1 {
+    font-size: 2rem;
+  }
+
+  .slide-text p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .slide-text h1 {
+    font-size: 1.6rem;
+  }
+
+  .slide-text p {
+    font-size: 0.9rem;
+  }
 }
 
 .slide-text h1 {

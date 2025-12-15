@@ -1,30 +1,56 @@
+/* ===== SERVICES SECTION ===== */
 .services-section {
   position: relative;
-  padding: 90px 50px;
-  text-align: center;
-  color: white;
-  background: linear-gradient(rgba(10, 10, 10, 0.8), rgba(10, 10, 10, 0.85)),
-    url("https://images.unsplash.com/photo-1600585153851-1cde40a29993?auto=format&fit=crop&w=1350&q=80")
-      center/cover no-repeat;
-  background-attachment: fixed;
+  padding: 60px 20px;
+  background: #f8f9fb;
+  overflow: hidden;
 }
 
 .services-title {
-  font-size: 44px;
+  text-align: center;
+  font-size: 2.4rem;
   font-weight: 700;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
+  color: #222;
 }
 
 .services-subtitle {
-  font-size: 18px;
-  margin-bottom: 55px;
-  opacity: 0.9;
-  max-width: 850px;
-  margin: auto;
+  text-align: center;
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 40px;
 }
 
-/* ---------- SLIDER ---------- */
+/* ===== NAV BUTTONS ===== */
+.nav-btn {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  background: #fff;
+  border: none;
+  font-size: 2rem;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 50%;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
 
+.nav-btn:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+.nav-left {
+  left: 10px;
+}
+
+.nav-right {
+  right: 10px;
+}
+
+/* ===== SLIDER ===== */
 .services-slider {
   overflow-x: auto;
   scroll-behavior: smooth;
@@ -35,147 +61,113 @@
   display: none;
 }
 
-/* Sliding row */
+/* ===== CARDS CONTAINER ===== */
 .services-container {
   display: flex;
-  gap: 24px;
-  max-width: 1400px;
-  margin: auto;
+  gap: 25px;
+  padding: 10px 30px;
+  width: max-content;
 }
 
-/* ---------- SERVICE CARD ---------- */
-
+/* ===== SERVICE CARD ===== */
 .service-card {
-  flex: 0 0 calc(25% - 18px); /* 4 cards desktop */
-  min-width: calc(25% - 18px);
-  background: rgba(255, 255, 255, 0.12);
-  padding: 35px 28px;
-  border-radius: 14px;
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  transition: 0.3s ease;
-  min-height: 380px;
+  min-width: 280px;
+  max-width: 280px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 25px 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .service-card:hover {
   transform: translateY(-8px);
-  background: rgba(255, 255, 255, 0.22);
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
 }
 
+/* ===== ICON ===== */
 .service-icon {
-  width: 75px;
-  height: 75px;
-  margin-bottom: 20px;
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 15px;
 }
 
+/* ===== TEXT ===== */
 .service-card h3 {
-  font-size: 22px;
+  font-size: 1.1rem;
   font-weight: 700;
-  margin-bottom: 12px;
-  color: #fff;
+  margin-bottom: 10px;
+  color: #111;
 }
 
 .service-card p {
-  font-size: 15px;
-  line-height: 1.55;
-  color: #e8e8e8;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 18px;
+  line-height: 1.5;
 }
 
-/* ---------- READ MORE ---------- */
-
+/* ===== READ MORE ===== */
 .read-more {
-  display: inline-flex;
-  margin-top: 18px;
-  font-weight: bold;
-  color: #ffffff;
+  display: inline-block;
+  padding: 10px 22px;
+  background: #007bff;
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
   text-decoration: none;
-  letter-spacing: 1px;
-  font-size: 15px;
-  transition: 0.3s ease;
+  border-radius: 25px;
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
 .read-more:hover {
-  color: #00b3ff;
+  background: #0056b3;
+  transform: translateY(-2px);
 }
 
-/* ---------- ARROW BUTTONS ---------- */
-
-.nav-btn {
-  position: absolute;
-  top: 55%;
-  transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.55);
-  border: none;
-  color: white;
-  font-size: 28px;
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  cursor: pointer;
-  z-index: 10;
-  transition: 0.3s ease;
-}
-
-.nav-btn:hover {
-  background: rgba(255, 255, 255, 0.35);
-  color: #00b3ff;
-}
-
-.nav-left {
-  left: 20px;
-}
-
-.nav-right {
-  right: 20px;
-}
-
-/* ---------- RESPONSIVE ---------- */
-
-/* Tablet */
-@media (max-width: 992px) {
-  .services-section {
-    padding: 70px 30px;
-  }
-
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1024px) {
   .service-card {
-    flex: 0 0 calc(50% - 12px);
-    min-width: calc(50% - 12px);
-  }
-
-  .read-more {
-    font-size: 14px;
+    min-width: 260px;
   }
 }
 
-/* Mobile */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .services-title {
-    font-size: 32px;
-  }
-
-  .service-card {
-    flex: 0 0 100%;
-    min-width: 100%;
-    min-height: auto;
-    padding: 28px 22px;
+    font-size: 2rem;
   }
 
   .nav-btn {
-    width: 40px;
-    height: 40px;
-    font-size: 22px;
+    display: none;
   }
 
-  .nav-left {
-    left: 10px;
+  .services-container {
+    padding: 10px 15px;
   }
 
-  .nav-right {
-    right: 10px;
+  .service-card {
+    min-width: 240px;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-title {
+    font-size: 1.8rem;
   }
 
-  .read-more {
-    font-size: 14px;
+  .services-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .service-card {
+    min-width: 220px;
+    padding: 20px 15px;
+  }
+
+  .service-icon {
+    width: 70px;
+    height: 70px;
   }
 }
