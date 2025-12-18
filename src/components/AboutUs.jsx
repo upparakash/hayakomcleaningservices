@@ -1,39 +1,53 @@
 import AboutImg from "./images/image1.jpg";
-import AboutImgArabic from "./images/owmenimage.jpeg"; 
 import "./AboutUs.css";
 
 const AboutUs = () => {
   return (
     <div className="about-wrapper" id="about">
-      
-      {/* English Section */}
       <section className="about-section">
         <div className="about-content">
-          <h3 className="about-subtitle">We're Cleaning for You</h3>
+          <h3 className="about-subtitle">
+            Hayakom Cleaning Services – Trusted Cleaning Experts in Kuwait
+          </h3>
+
           <h2 className="about-title">
-            About Hayakom Cleaning Service Kuwait – Home, Maid, and Deep Cleaning Experts
+            Professional Cleaning Services for Homes & Businesses
           </h2>
 
           <p className="about-text">
-            <strong>Hayakom Cleaning Service Kuwait</strong> is a trusted company providing 
-            professional <strong>home cleaning services</strong>, <strong>maid service</strong>, 
-            and <strong>car cleaning</strong> across Kuwait. We also specialize in 
-            <strong>tile and floor cleaning</strong>, <strong>sofa cleaning</strong>, and 
-            <strong>deep cleaning services</strong> for both homes and offices.
+            <strong>Hayakom Cleaning Services</strong> is a professional cleaning
+            company in Kuwait, offering high-quality cleaning solutions for
+            homes, offices, shops, and commercial spaces. We are committed to
+            providing clean, safe, and healthy environments for our customers
+            with reliable and affordable services.
           </p>
 
           <p className="about-text">
-            With a skilled and experienced team, we ensure spotless and hygienic environments 
-            that enhance comfort and productivity. From <strong>move-in/move-out cleaning</strong> 
-            to routine housekeeping, we deliver customized and affordable cleaning solutions 
-            tailored to every client’s needs.
+            Our team consists of trained and experienced cleaners who use modern
+            equipment and eco-friendly cleaning products. We focus on every
+            detail to ensure complete customer satisfaction. Whether it is daily
+            cleaning or deep cleaning, we deliver excellent results every time.
           </p>
 
           <p className="about-text">
-            Our commitment to excellence, transparency, and customer satisfaction makes us one of 
-            the most reliable <strong>cleaning service companies in Kuwait</strong>. 
-            Using eco-friendly products and modern equipment, Hayakom Cleaning Service ensures 
-            your space stays fresh, healthy, and beautifully clean — every time.
+            We offer a wide range of services including <strong>home cleaning</strong>,{" "}
+            <strong>maid services</strong>, <strong>deep cleaning</strong>,{" "}
+            <strong>sofa and carpet cleaning</strong>, <strong>kitchen and bathroom cleaning</strong>, 
+            and <strong>move-in/move-out cleaning</strong>. Our services are fully
+            customized based on your requirements and schedule.
+          </p>
+
+          <p className="about-text">
+            At Hayakom Cleaning Services, we believe cleanliness improves comfort,
+            health, and productivity. That is why we follow strict hygiene
+            standards and transparent pricing. Our goal is to build long-term
+            trust by delivering consistent quality and professional service
+            across Kuwait.
+          </p>
+
+          <p className="about-text">
+            Choose <strong>Hayakom Cleaning Services</strong> for a cleaner,
+            fresher, and healthier space you can rely on.
           </p>
 
           <button className="about-btn">Learn More</button>
@@ -42,13 +56,10 @@ const AboutUs = () => {
         <div className="about-image">
           <img
             src={AboutImg}
-            alt="Home, Maid, and Deep Cleaning Service in Kuwait by Hayakom Cleaning"
+            alt="Professional Cleaning Services in Kuwait by Hayakom"
           />
         </div>
       </section>
-
-      {/* Arabic Section */}
-      
     </div>
   );
 };

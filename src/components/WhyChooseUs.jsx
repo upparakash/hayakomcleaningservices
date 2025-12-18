@@ -1,27 +1,49 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./WhyChooseUs.css";
 
 const WhyChooseUs = () => {
+  const sliderRef = useRef(null);
+
+  const slideLeft = () => {
+    sliderRef.current.scrollBy({ left: -350, behavior: "smooth" });
+  };
+
+  const slideRight = () => {
+    sliderRef.current.scrollBy({ left: 350, behavior: "smooth" });
+  };
+
   const content = {
     title: "Why Choose Hayakom Cleaning Service Kuwait",
     cards: [
       {
-        icon: "👍",
-        heading: "Exceptional Cleaning Quality & Customer Satisfaction",
-        text: "At Hayakom Cleaning Service, we deliver exceptional quality and ensure complete customer satisfaction for every cleaning project — from home cleaning and maid service to car cleaning and deep cleaning across Kuwait.",
-        link: "/why-hayakom/quality",
+        icon: "👷‍♂️",
+        heading: "Experienced and Trained Cleaning Staff",
+        text: "Our professional cleaners are fully trained and experienced in delivering high-quality cleaning services for homes, offices, and commercial spaces across Kuwait.",
       },
       {
-        icon: "📅",
-        heading: "Reliable Cleaning Scheduling",
-        text: "We’re known for our reliability, transparency, and flexible cleaning schedules. Whether you need regular maid service, one-time deep cleaning, or move-in/move-out cleaning in Kuwait — we fit our services around your busy life.",
-        link: "/why-hayakom/scheduling",
+        icon: "🧰",
+        heading: "High-Quality Cleaning Equipment",
+        text: "We use advanced cleaning equipment and modern tools to ensure deep, effective, and long-lasting cleaning results for every service.",
       },
       {
-        icon: "🌍",
-        heading: "Eco-friendly Home & Car Cleaning Services",
-        text: "Our trained professionals use eco-friendly products for safe and effective cleaning — including sofa cleaning, tile & floor cleaning, and car detailing. We care about your health and the environment.",
-        link: "/why-hayakom/eco-friendly",
+        icon: "🌿",
+        heading: "Eco-Friendly and Safe Cleaning Products",
+        text: "Our eco-friendly and non-toxic cleaning products are safe for children, pets, and the environment while delivering powerful cleaning performance.",
+      },
+      {
+        icon: "💰",
+        heading: "Affordable and Transparent Pricing",
+        text: "We offer competitive pricing with complete transparency—no hidden charges.",
+      },
+      {
+        icon: "⏱️",
+        heading: "On-Time and Reliable Service",
+        text: "Punctuality and reliability are our priorities. Our team arrives on time and completes every job efficiently.",
+      },
+      {
+        icon: "🧾",
+        heading: "Customized Cleaning Plans",
+        text: "We provide flexible and customized cleaning plans tailored to your space and schedule.",
       },
     ],
   };
@@ -30,16 +52,21 @@ const WhyChooseUs = () => {
     <section className="why-container">
       <h2 className="why-title">{content.title}</h2>
 
-      <div className="why-cards">
-        {content.cards.map((item, index) => (
-          <div className="why-card" key={index}>
-            <span className="why-icon">{item.icon}</span>
-            <h3>{item.heading}</h3>
-            <p>{item.text}</p>
+      {/* SLIDE BUTTONS */}
+      <button className="slide-btn left" onClick={slideLeft}>
+        ◀
+      </button>
+      <button className="slide-btn right" onClick={slideRight}>
+        ▶
+      </button>
 
-            <a href={item.link} className="why-read-more">
-              READ MORE <span className="arrow1">→</span>
-            </a>
+      {/* SLIDER */}
+      <div className="why-slider" ref={sliderRef}>
+        {content.cards.map((card, index) => (
+          <div className="why-card" key={index}>
+            <div className="why-icon">{card.icon}</div>
+            <h3 className="why-heading">{card.heading}</h3>
+            <p className="why-text">{card.text}</p>
           </div>
         ))}
       </div>

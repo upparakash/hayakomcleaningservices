@@ -4,42 +4,63 @@ import "./OurServices.css";
 
 const servicesEN = [
   {
-    title: "HOUSE CLEANING",
+    title: "HOME CLEANING SERVICES",
     icon: "https://cdn-icons-png.flaticon.com/512/3515/3515788.png",
-    description: "Our house cleaning service ensures every corner of your home is spotless and welcoming.",
-    slug: "house-cleaning",
+    description:
+      "Professional home cleaning services to keep your living space fresh, clean, and hygienic.",
+    slug: "home-cleaning-services",
   },
   {
-    title: "BATHROOM CLEANING",
-    icon: "https://cdn-icons-png.flaticon.com/512/8099/8099430.png",
-    description: "Our bathroom cleaning service focuses on deep sanitization.",
-    slug: "bathroom-cleaning",
-  },
-  {
-    title: "MARBLE CLEANING",
-    icon: "https://cdn-icons-png.flaticon.com/512/9956/9956908.png",
-    description: "Specialized marble cleaning to protect shine and durability.",
-    slug: "marble-cleaning",
-  },
-  {
-    title: "MAID SERVICE",
+    title: "MAID SERVICES",
     icon: "https://cdn-icons-png.flaticon.com/512/6196/6196932.png",
-    description: "Professional maid service for daily or one-time cleaning.",
-    slug: "maid-service",
+    description:
+      "Reliable maid services available daily, weekly, or monthly based on your needs.",
+    slug: "maid-services",
   },
   {
-    title: "SOFA CLEANING",
-    icon: "https://cdn-icons-png.flaticon.com/512/2933/2933245.png",
-    description: "Deep sofa and upholstery cleaning service.",
-    slug: "sofa-cleaning",
+    title: "DEEP CLEANING SERVICES",
+    icon: "https://cdn-icons-png.flaticon.com/512/8099/8099430.png",
+    description:
+      "Intensive deep cleaning service covering every corner for complete sanitation.",
+    slug: "deep-cleaning-services",
   },
   {
-    title: "OFFICE CLEANING",
+    title: "OFFICE & COMMERCIAL CLEANING",
     icon: "https://cdn-icons-png.flaticon.com/512/3050/3050525.png",
-    description: "Complete office and commercial space cleaning.",
-    slug: "office-cleaning",
+    description:
+      "Professional cleaning solutions for offices, shops, and commercial spaces.",
+    slug: "office-commercial-cleaning",
+  },
+  {
+    title: "SOFA, CARPET & CURTAIN CLEANING",
+    icon: "https://cdn-icons-png.flaticon.com/512/2933/2933245.png",
+    description:
+      "Specialized cleaning for sofas, carpets, and curtains to remove dust and stains.",
+    slug: "sofa-carpet-curtain-cleaning",
+  },
+  {
+    title: "KITCHEN & BATHROOM CLEANING",
+    icon: "https://cdn-icons-png.flaticon.com/512/9956/9956908.png",
+    description:
+      "Deep kitchen and bathroom cleaning with strong focus on hygiene and sanitization.",
+    slug: "kitchen-bathroom-cleaning",
+  },
+  {
+    title: "FLOOR & TILE CLEANING",
+    icon: "https://cdn-icons-png.flaticon.com/512/4332/4332738.png",
+    description:
+      "Professional floor and tile cleaning to restore shine and remove tough dirt.",
+    slug: "floor-tile-cleaning",
+  },
+  {
+    title: "MOVE-IN / MOVE-OUT CLEANING",
+    icon: "https://cdn-icons-png.flaticon.com/512/1041/1041873.png",
+    description:
+      "Complete move-in and move-out cleaning for a fresh and ready-to-use space.",
+    slug: "move-in-move-out-cleaning",
   },
 ];
+
 
 const OurServices = () => {
   const sliderRef = useRef(null);
@@ -54,10 +75,19 @@ const OurServices = () => {
 
   return (
     <div className="services-section">
-      <h2 className="services-title">Our Services</h2>
-      <p className="services-subtitle">
-        Our services are designed to meet your cleaning needs efficiently.
-      </p>
+     <h2 className="services-title">Our Services</h2>
+
+<p className="services-subtitle">
+  We provide complete cleaning solutions for residential and commercial spaces
+  across Kuwait. Our services are designed to meet different needs with flexible
+  timing and affordable pricing.
+</p>
+
+<p className="services-subtitle">
+  No matter the size of the space, our professional team ensures spotless results
+  with care and attention.
+</p>
+
 
       <button className="nav-btn nav-left" onClick={slideLeft}>
         &#10094;

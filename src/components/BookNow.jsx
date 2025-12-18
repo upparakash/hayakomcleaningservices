@@ -21,19 +21,17 @@ const BookNow = () => {
 
   return (
     <section id="book" className="book-section">
-      {/* ✅ Title with Keywords */}
-      <h2 className="book-title">
-        Book Cleaning Service in Kuwait / احجز خدمة التنظيف في الكويت
-      </h2>
+      {/* ✅ Title */}
+      <h2 className="book-title">Book Cleaning Service in Kuwait</h2>
 
-      {/* ✅ Subtitle — natural keyword placement */}
+      {/* ✅ Subtitle */}
       <p className="book-subtitle">
-        Book your <strong>home cleaning</strong>, <strong>maid service</strong>,{" "}
-        <strong>car cleaning</strong>, or <strong>tile & floor cleaning</strong> in Kuwait today.  
-        We also offer <strong>deep cleaning</strong>, <strong>sofa cleaning</strong>, and{" "}
-        <strong>move-in/move-out cleaning</strong> for homes and offices.  
-        <br />Reach out for service booking or inquiries — we’re here to help!  
-        / تواصل معنا لحجز الخدمة أو للاستفسارات. نحن هنا لمساعدتك!
+        Looking for a reliable cleaning service in Kuwait?{" "}
+        <strong>Hayakom Cleaning Services</strong> is here to help. Contact us
+        today to book your cleaning service and enjoy a fresh, clean, and healthy
+        environment.
+        <br />
+        <strong>Your cleanliness is our responsibility.</strong>
       </p>
 
       <div className="book-container">
@@ -58,72 +56,76 @@ const BookNow = () => {
           onSubmit={handleSubmit}
         >
           <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_subject" value="New Cleaning Service Booking" />
+          <input
+            type="hidden"
+            name="_subject"
+            value="New Cleaning Service Booking"
+          />
 
-          {/* ✅ Add contextual hints for each field */}
           <div className="form-row">
             <div className="form-group">
-              <label>Name / الاسم</label>
+              <label>Name</label>
               <input
                 name="name"
                 type="text"
                 required
-                placeholder="Enter your name / اكتب اسمك"
+                placeholder="Enter your name"
               />
             </div>
+
             <div className="form-group">
-              <label>Email / البريد الإلكتروني</label>
+              <label>Email</label>
               <input
                 name="email"
                 type="email"
                 required
-                placeholder="Enter your email / اكتب بريدك الإلكتروني"
+                placeholder="Enter your email"
               />
             </div>
           </div>
 
           <div className="form-row">
             <div className="form-group">
-              <label>Number / رقم</label>
+              <label>Phone Number</label>
               <input
                 name="number"
                 type="text"
                 required
-                placeholder="Enter your number / اكتب رقمك"
+                placeholder="Enter your phone number"
               />
             </div>
 
             <div className="form-group">
-              <label>
-                Service / الخدمة المطلوبة (Home, Maid, Car, Tile, Deep Cleaning)
-              </label>
+              <label>Service Required</label>
               <input
                 name="service"
                 type="text"
                 required
-                placeholder="e.g. Home cleaning Kuwait, Maid service Kuwait"
+                placeholder="e.g. Home cleaning, Maid service, Deep cleaning"
               />
             </div>
           </div>
 
           <div className="form-group full">
-            <label>Your Message / رسالتك</label>
+            <label>Your Message</label>
             <textarea
               name="message"
               rows="4"
               required
-              placeholder="Write your message (e.g. Need deep cleaning or car wash in Kuwait)"
+              placeholder="Write your message here"
             ></textarea>
           </div>
 
           <button type="submit" className="submit-btn">
-            Send Booking Request / إرسال طلب الحجز
+            Send Booking Request
           </button>
         </form>
       </div>
 
       {/* ✅ Success Popup */}
-      {showPopup && <div className="success-popup">✅ Message Sent Successfully!</div>}
+      {showPopup && (
+        <div className="success-popup">✅ Message Sent Successfully!</div>
+      )}
     </section>
   );
 };
