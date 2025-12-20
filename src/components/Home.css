@@ -272,3 +272,11 @@
     font-size: 1.3rem;
   }
 }
+
+
+section[id] {
+  scroll-margin-top: 120px;
+}
+html {
+  scroll-behavior: smooth;
+}

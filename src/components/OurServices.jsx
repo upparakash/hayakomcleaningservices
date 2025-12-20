@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import  { useRef } from "react";
 import { Link } from "react-router-dom";
 import "./OurServices.css";
 
@@ -75,18 +75,18 @@ const OurServices = () => {
 
   return (
     <div className="services-section">
-     <h2 className="services-title">Our Services</h2>
+      <h2 className="services-title">Our Services</h2>
 
-<p className="services-subtitle">
-  We provide complete cleaning solutions for residential and commercial spaces
-  across Kuwait. Our services are designed to meet different needs with flexible
-  timing and affordable pricing.
-</p>
+      <p className="services-subtitle">
+        We provide complete cleaning solutions for residential and commercial spaces
+        across Kuwait. Our services are designed to meet different needs with flexible
+        timing and affordable pricing.
+      </p>
 
-<p className="services-subtitle">
-  No matter the size of the space, our professional team ensures spotless results
-  with care and attention.
-</p>
+      <p className="services-subtitle">
+        No matter the size of the space, our professional team ensures spotless results
+        with care and attention.
+      </p>
 
 
       <button className="nav-btn nav-left" onClick={slideLeft}>

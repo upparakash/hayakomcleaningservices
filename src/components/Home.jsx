@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import Image1 from "./images/slide1.png";
-import Image2 from "./images/slide2.jpeg";
-import Image3 from "./images/slide3.jpg";
-import Image4 from "./images/slide4.png";
-import Image5 from "./images/slide5.png";
-import Image6 from "./images/slide6.png";
+import Image1 from "./images/s1.png";
+import Image2 from "./images/s2.png";
+import Image3 from "./images/s3.png";
+import Image4 from "./images/s4.png";
+import Image5 from "./images/s5.png";
+import Image6 from "./images/s6.png";
 
 import AboutUs from "./AboutUs";
 import OurServices from "./OurServices";

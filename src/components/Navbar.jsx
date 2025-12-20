@@ -1,64 +1,66 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Use Link instead of <a>
 import "./Navbar.css";
 import logo from "./images/Logonew.png";
-
+import { HashLink } from "react-router-hash-link"; // ✅ import HashLink
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
     <nav className="navbar">
       {/* Logo */}
-      <a href="#home" className="nav-logo">
+      <Link to="/" className="nav-logo">
         <img src={logo} alt="Logo" />
-      </a>
+      </Link>
 
       {/* Desktop Menu */}
       <ul className="nav-menu">
-        <li><a href="#home">Home</a></li>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
 
         {/* Mega Dropdown */}
         <li className="dropdown">
-          <a href="#services" className="dropbtn">Services</a>
+          <Link to="/services" className="dropbtn">Services</Link>
 
           <div className="dropdown-content">
             <div className="col">
               <h4>DETAILED CLEANING</h4>
-              <a>General Cleaning</a>
-              <a>Deep Cleaning</a>
-              <a>Storage Area</a>
-              <a>Window Cleaning</a>
-              <a>Outdoor Cleaning</a>
-              <a>Car Parking Umbrella</a>
-              <a>Facade Cleaning</a>
+              <Link to="/services/home-cleaning-services">Home Cleaning Services</Link>
+              <Link to="/services/deep-cleaning-services">Deep Cleaning Services</Link>
+              <Link to="/services/move-in-out-cleaning">Move-In / Move-Out Cleaning</Link>
+              <Link to="/services/floor-tile-cleaning">Floor & Tile Cleaning</Link>
+              <Link to="/services/office-commercial-cleaning">Office & Commercial Cleaning</Link>
+              <Link to="/services/kitchen-bathroom-cleaning">Kitchen & Bathroom Cleaning</Link>
+              <Link to="/services/facade-cleaning">Facade Cleaning</Link>
             </div>
 
             <div className="col">
               <h4>SPECIAL CARE</h4>
-              <a>Upholstery Cleaning</a>
-              <a>Carpet Cleaning</a>
-              <a>Mattress Cleaning</a>
+              <Link to="/services/sofa-cleaning">Sofa Cleaning</Link>
+              <Link to="/services/carpet-cleaning">Carpet Cleaning</Link>
+              <Link to="/services/curtain-cleaning">Curtain Cleaning</Link>
             </div>
 
             <div className="col">
               <h4>KITCHEN CLEANING</h4>
-              <a>Kitchen</a>
-              <a>Kitchen Appliances</a>
+              <Link to="/services/kitchen-cleaning">Kitchen Cleaning</Link>
+              <Link to="/services/kitchen-appliances-cleaning">Kitchen Appliances Cleaning</Link>
             </div>
 
             <div className="col">
-              <h4>PEST CONTROL</h4>
-              <a>Pest Control</a>
-              <a>Sterilization</a>
+              <h4>BEAUTY PARLOUR CLEANING</h4>
+              <Link to="/services/salon-area-cleaning">Salon Area Cleaning</Link>
+              <Link to="/services/equipment-tools-cleaning">Equipment & Tools Cleaning</Link>
             </div>
           </div>
         </li>
 
-
-        {/* Newly Added */}
-        <li><a href="#teams">Teams</a></li>
-        <li><a href="#reviews">Reviews</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#book">Contact</a></li>
+        {/* Other Links */}
+          <HashLink smooth to="/#teams">Teams</HashLink>
+        <HashLink smooth to="/#reviews">Clients</HashLink>
+        <HashLink smooth to="/#about">About</HashLink>
+        <HashLink smooth to="/#book">Contact</HashLink>
       </ul>
 
       {/* Mobile Menu Icon */}
@@ -68,25 +70,26 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div className={`mobile-menu ${open ? "show" : ""}`}>
-        <a href="#home">Home</a>
+        <Link to="/">Home</Link>
 
         <details>
-          <summary href="#services">Services</summary>
+          <summary>Services</summary>
           <div className="mobile-sub">
-            <p>General Cleaning</p>
-            <p>Deep Cleaning</p>
-            <p>Carpet Cleaning</p>
-            <p>Kitchen Cleaning</p>
-            <p>Pest Control</p>
+            <Link to="/services/home-cleaning-services">Home Cleaning Services</Link>
+            <Link to="/services/deep-cleaning-services">Deep Cleaning Services</Link>
+            <Link to="/services/sofa-cleaning">Sofa, Carpet & Curtain Cleaning</Link>
+            <Link to="/services/kitchen-bathroom-cleaning">Kitchen & Bathroom Cleaning</Link>
+            <Link to="/services/floor-tile-cleaning">Floor & Tile Cleaning</Link>
+            <Link to="/services/office-commercial-cleaning">Office & Commercial Cleaning</Link>
+            <Link to="/services/move-in-out-cleaning">Move-In / Move-Out Cleaning</Link>
+            <Link to="/services/maid-services">Maid Services</Link>
           </div>
         </details>
 
-        {/* Newly Added */}
-        <a href="#teams">Teams</a>
-        <a href="#reviews">Clients</a>
-
-        <a href="#about">About</a>
-        <a href="#book">Contact</a>
+          <HashLink smooth to="/#teams">Teams</HashLink>
+        <HashLink smooth to="/#reviews">Clients</HashLink>
+        <HashLink smooth to="/#about">About</HashLink>
+        <HashLink smooth to="/#book">Contact</HashLink>
       </div>
     </nav>
   );

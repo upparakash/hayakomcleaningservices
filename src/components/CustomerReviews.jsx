@@ -1,7 +1,9 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-
+import Happy1 from './images/Happy1.png';
+import Happy2 from './images/Happy2.png';
+import Happy3 from './images/Happy3.png';
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -11,19 +13,19 @@ import "./CustomerReviews.css";
 const CustomerReviews = () => {
   const testimonials = [
     {
-      img: "https://via.placeholder.com/350x200",
+      img: Happy1,
       text: `“Having found Healthy Home UAE via Instagram, the pricing was clear and the team
       was very professional. AC duct cleaning was done perfectly…”`,
       name: "Chris Hammersley",
     },
     {
-      img: "https://via.placeholder.com/350x200",
+      img: Happy2,
       text: `“They arrived with all deep cleaning equipment. The team knows their job very well.
       I loved the result and will book again…”`,
       name: "Sevara Sattarova",
     },
     {
-      img: "https://via.placeholder.com/350x200",
+      img: Happy3,
       text: `“Ali and Dennis were thorough in pest control treatment. They asked questions and 
       tailored the solution professionally. Highly recommended!”`,
       name: "Steve C",
