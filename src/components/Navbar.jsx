@@ -86,7 +86,7 @@ const Navbar = () => {
           </div>
         </details>
 
-          <HashLink smooth to="/#teams">Teams</HashLink>
+        <HashLink smooth to="/#teams">Teams</HashLink>
         <HashLink smooth to="/#reviews">Clients</HashLink>
         <HashLink smooth to="/#about">About</HashLink>
         <HashLink smooth to="/#book">Contact</HashLink>
