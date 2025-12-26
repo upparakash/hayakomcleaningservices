@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"; // Use Link instead of <a>
 import "./Navbar.css";
 import logo from "./images/Logonew.png";
 import { HashLink } from "react-router-hash-link"; // ✅ import HashLink
+import { FaYoutube, FaInstagram, FaFacebook, FaPhoneAlt } from "react-icons/fa";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
@@ -12,6 +13,50 @@ const Navbar = () => {
       <Link to="/" className="nav-logo">
         <img src={logo} alt="Logo" />
       </Link>
+      {/* Social Media Icons */}
+      {/* Social Media + Phone Numbers */}
+      <div className="nav-social-contact">
+        {/* Social Icons */}
+        <div className="nav-social">
+          <a
+            href="https://www.youtube.com/@HayakomCleaning"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="YouTube"
+          >
+            <FaYoutube />
+          </a>
+
+          <a
+            href="https://www.instagram.com/sreenumadineni1992/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <FaInstagram />
+          </a>
+
+          <a
+            href="https://www.facebook.com/profile.php?id=61584853445663"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+          >
+            <FaFacebook />
+          </a>
+        </div>
+
+        {/* Phone Numbers */}
+        <p className="nav-phone">
+          <FaPhoneAlt className="phone-icon" />
+          <a href="tel:+96555396880">+965 55396880</a>
+          <span>|</span>
+          <a href="tel:+96550449213">+965 50449213</a>
+          <span>|</span>
+          <a href="tel:+96560446934">+965 60446934</a>
+        </p>
+      </div>
+
 
       {/* Desktop Menu */}
       <ul className="nav-menu">
@@ -57,7 +102,7 @@ const Navbar = () => {
         </li>
 
         {/* Other Links */}
-          <HashLink smooth to="/#teams">Teams</HashLink>
+        <HashLink smooth to="/#teams">Teams</HashLink>
         <HashLink smooth to="/#reviews">Clients</HashLink>
         <HashLink smooth to="/#about">About</HashLink>
         <HashLink smooth to="/#book">Contact</HashLink>

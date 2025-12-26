@@ -5,88 +5,68 @@ import HomeCleaningImg from './images/image1.jpg'
 
 /* Service content map (can be API-driven later) */
 const serviceData = {
-  "home-cleaning-services": {
-    title: "Home Cleaning Services",
-    intro:
-      'Al-Salmiya Cleaning Company "Al-Ameka Cleaning" is a distinguished company in providing all home cleaning services, including the following:',
-    points: [
-      "We offer excellent cleaning services through Man Power Company using the latest cleaning methods.",
-      "We provide deep cleaning services for apartments, houses, villas, offices, and other interiors.",
-      "Carpet and sofa cleaning using highly effective steam technology.",
-      "Comprehensive cleaning for living rooms, salons, kitchens, bathrooms, and more.",
-      "Complete home sterilization and disinfection safe for humans and pets.",
-      "At Al-Ameka®, we use powerful cleaning agents to achieve the best results.",
-    ],
-    sectionTitle: "24-Hour House Cleaning Company",
-    sectionIntro:
-      'Al-Salmiya Cleaning Company "Al-Ameka Cleaning" provides 24-hour home cleaning services, delivering strong and fast service while respecting the client’s time.',
-    sectionPoints: [
-      "We use the most modern equipment and devices for all cleaning tasks.",
-      "Professionally trained staff capable of handling all cleaning requirements.",
-      "Our services cover homes, offices, businesses, hotels, and other establishments.",
-      "We also carry out the most difficult tasks with experts who are credible, skilled, and trustworthy.",
-      "Al-Ameka Company offers special deals and discounts to its customers.",
-    ],
-    extraSectionTitle: "Salmiya House Cleaning Company",
+"home-cleaning-services": {
+  title: "Home Cleaning Services in Kuwait",
 
-    extraSectionIntro:
-      "A house cleaning company in Salmiya will make the cleaning process extremely easy; you can rely on us to obtain the following services:",
+  intro:
+    "Hayakom Cleaning Services is a professional home cleaning company in Kuwait, providing high-quality and reliable cleaning solutions for residential and commercial spaces. We focus on delivering clean, hygienic, and comfortable environments using modern cleaning techniques and trained manpower. Our services are designed to make home cleaning simple and stress-free. Whether you need regular housekeeping or deep cleaning, our team ensures every corner of your space is cleaned with care and precision.",
 
-    extraSectionPoints: [
-      "We provide deep cleaning services for homes using the latest advanced methods.",
-      "Cleaning services include businesses, homes, cafes, shops, mosques, and more.",
-      "We clean water tanks from dirt, dust, and other contaminants.",
-      "Steam cleaning is used as one of the latest and most advanced cleaning methods.",
-      "Carpets, rugs, and sofas are cleaned using advanced steam technology.",
-      "Al-Ameka Company disinfects homes after completing all cleaning tasks.",
-      "All cleaning agents used are high quality and completely safe.",
-    ],
-    videoUrl: "https://www.youtube.com/embed/hU_3qp2t-KE",
-    finalSectionContent: [
-      "Al-Ameka Company is one of the leading companies in the field of home cleaning in Kuwait. We employ professional workers with a high level of efficiency and experience, and we use the latest equipment to perform all household cleaning tasks. In addition, we provide excellent customer service that responds to all inquiries 24 hours a day.",
+  sectionTitle: "Professional Home Cleaning Solutions",
 
-      "Our company is committed to delivering services on the agreed dates, which helps us gain the trust of our customers through high-quality services and competitive prices. A specialized team assists customers by guiding them toward special offers that provide real value, especially in light of rising costs.",
+  sectionIntro:
+    "At Hayakom Cleaning Services, we offer a complete range of home cleaning services to meet different customer needs:",
 
-      "We also ensure full transparency by clearly explaining the cleaning plan after inspecting the location and understanding all required tasks. This clarity builds confidence and trust with our valued clients. If you are looking for the best cleaning company in Kuwait, you can contact us at any time through our available phone numbers.",
-    ],
-    image: HomeCleaningImg,
-    footerSectionContent: [
-      "Customers are keen to choose the most suitable prices for home cleaning companies, so Al-Ameka Company offers the difficult equation that combines the quality of services provided and the price, and you will notice the difference yourself when you contract with our company to get distinguished services, so do not worry about prices with the best cleaning company in Salmiya, because you will find exclusive offers and discounts that you will not find in competing companies.",
-      "Our company's prices also vary slightly according to the size of the property, whether it's houses, villas, or small apartments; you'll find prices and offers suitable for all budgets.",
-      "If you are looking for a distinguished service and a reasonable price, contact our company through our numbers, and we will get in touch with you and offer you the best deals that any customer is looking for, and we will also help you choose the strongest offers that suit your budget.",
-    ],
-    footerSectionTitle1: "Professional cleaning company",
-    /* ✅ NEW SECTION: Professional Cleaning Company Details */
-    professionalSectionTitle: "Professional cleaning company",
-    professionalSectionIntro:
-      'Al-Salmiya Cleaning Company “Al-Ameka Cleaning®” includes a selection of the best workers in house cleaning, including:',
-    professionalSectionPoints: [
-      "Customer satisfaction is our top priority, regardless of task difficulty.",
-      "A comprehensive team capable of reaching the most difficult cleaning areas using modern tools.",
-      "Use of the strongest and safest cleaning materials to achieve outstanding results.",
-      "A service guarantee after task completion to ensure customer confidence.",
-      "Effective bathroom cleaning, sterilization, and deodorization.",
-      "Deep kitchen cleaning with complete grease and stain removal.",
-      "Cleaning of all floor types including ceramic, marble, parquet, walls, and more.",
-    ],
+  points: [
+    "Deep cleaning for apartments, houses, villas, and offices",
+    "Carpet, rug, and sofa cleaning using advanced steam equipment",
+    "Detailed cleaning for living rooms, bedrooms, kitchens, and bathrooms",
+    "Floor, tile, and surface cleaning with professional tools",
+    "Safe home sanitization and disinfection for families and pets",
+  ],
 
-    /* ✅ NEW SECTION: Apartment Cleaning Company */
-    apartmentSectionTitle: "Apartment cleaning company",
-    apartmentSectionIntro:
-      "A distinguished apartment cleaning company in Salmiya provides exceptional services, including:",
-    apartmentSectionPoints: [
-      "Excellent customer service to respond to all inquiries.",
-      "Services available throughout the week with no holidays.",
-      "Tasks completed without requiring customers to leave their homes or move furniture.",
-      "Special prices and discounts for companies and institutions.",
-    ],
+  extraNote:
+    "We use effective, eco-friendly cleaning products that deliver excellent results while maintaining safety and hygiene.",
 
-    contactNumbers: ["+965 55396880", "+965 50449213","+965 60446934"],
+  extraSectionTitle: "24-Hour Cleaning Services",
 
-    closingContent:
-      "Through the best cleaning company in Kuwait, you will enjoy a healthy home free from dirt and dust. Al-Ameka Cleaning Company provides integrated cleaning services for homes, villas, apartments, and more. Contact our team today and make cleaning one of the easiest tasks you ever think about.",
+  extraSectionIntro:
+    "Hayakom Cleaning Services provides 24-hour home cleaning services in Kuwait, ensuring fast response and flexible service times. We respect our clients’ schedules and deliver timely, efficient cleaning without compromising quality.",
 
-  },
+  extraSectionPoints: [
+    "Modern cleaning machines and advanced equipment",
+    "Skilled and well-trained cleaning staff",
+    "Services for homes, offices, shops, hotels, and commercial spaces",
+    "Capability to handle complex and large-scale cleaning tasks",
+  ],
+
+  offerNote:
+    "We also offer affordable packages and special discounts for regular and long-term customers.",
+
+  professionalSectionTitle: "Why Choose Hayakom Cleaning Services?",
+
+  professionalSectionPoints: [
+    "Experienced and professional cleaning teams",
+    "Advanced deep-cleaning and steam-cleaning technology",
+    "Safe, high-quality cleaning materials",
+    "Reliable service with attention to detail",
+    "Transparent pricing and customer-focused approach",
+  ],
+
+  finalSectionTitle: "Trusted Home Cleaning Company in Kuwait",
+
+  finalSectionContent: [
+    "As a dependable home cleaning service provider in Kuwait, Hayakom Cleaning Services is committed to delivering superior results and complete customer satisfaction.",
+    "Our mission is to provide consistent quality and long-lasting cleanliness for every client.",
+    "We aim to build long-term relationships by offering honest service, professional standards, and dependable support.",
+  ],
+
+  videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
+
+  contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
+
+  image: HomeCleaningImg,
+},
+
 
   "maid-services": {
     /* H1 */
@@ -104,7 +84,7 @@ const serviceData = {
       "High standards of hygiene, discipline, and professionalism.",
     ],
 
-    /* H2 */
+    /* h1 */
     sectionTitle: "24-Hour Maid Service Company",
     sectionIntro:
       "Al-Ameka Cleaning® offers 24-hour maid service support, ensuring household assistance is available whenever you need it, including emergencies and special occasions.",
@@ -115,7 +95,7 @@ const serviceData = {
       "Strict adherence to client instructions and privacy.",
     ],
 
-    /* H2 */
+    /* h1 */
     extraSectionTitle: "Professional Maid Services in Salmiya",
     extraSectionIntro:
       "If you are looking for professional maid services in Salmiya, Al-Ameka provides trained domestic helpers who handle daily household responsibilities with care and precision.",
@@ -127,7 +107,7 @@ const serviceData = {
     ],
 
     /* Optional Video Section */
-    videoUrl: "https://www.youtube.com/embed/hU_3qp2t-KE",
+    videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
 
     /* Long-form Company Content */
     finalSectionContent: [
@@ -139,7 +119,7 @@ const serviceData = {
     /* Image */
     image: HomeCleaningImg,
 
-    /* H2 */
+    /* h1 */
     professionalSectionTitle: "Professional Maid Service Company",
     professionalSectionIntro:
       "Al-Ameka Cleaning® employs experienced and disciplined maids who are committed to maintaining cleanliness, order, and comfort in your home.",
@@ -151,7 +131,7 @@ const serviceData = {
       "Use of safe and approved cleaning materials when required.",
     ],
 
-    /* H2 */
+    /* h1 */
     apartmentSectionTitle: "Apartment Maid Services",
     apartmentSectionIntro:
       "Our apartment maid services are designed to help residents maintain a clean and organized living space without disrupting their daily routine.",
@@ -307,7 +287,7 @@ const serviceData = {
       "Restores freshness and extends fabric life.",
     ],
 
-    /* H2 */
+    /* h1 */
     sectionTitle: "24-Hour Sofa & Carpet Cleaning Company",
     sectionIntro:
       "Al-Ameka Cleaning® offers 24-hour sofa, carpet, and curtain cleaning services to meet urgent and scheduled cleaning needs with fast and reliable service.",
@@ -318,7 +298,7 @@ const serviceData = {
       "Guaranteed service quality and customer satisfaction.",
     ],
 
-    /* H2 */
+    /* h1 */
     extraSectionTitle: "Professional Upholstery Cleaning in Salmiya",
     extraSectionIntro:
       "Our upholstery cleaning services in Salmiya are designed to deliver deep hygiene and long-lasting cleanliness for homes and commercial spaces.",
@@ -330,7 +310,7 @@ const serviceData = {
     ],
 
     /* Optional Video */
-    videoUrl: "https://www.youtube.com/embed/hU_3qp2t-KE",
+    videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
 
     /* Long-form Content */
     finalSectionContent: [
@@ -342,7 +322,7 @@ const serviceData = {
     /* Image */
     image: HomeCleaningImg,
 
-    /* H2 */
+    /* h1 */
     professionalSectionTitle: "Professional Sofa & Carpet Cleaning Company",
     professionalSectionIntro:
       "Al-Ameka Cleaning® employs trained professionals who specialize in cleaning delicate fabrics, carpets, and curtains using industry-approved methods.",
@@ -353,7 +333,7 @@ const serviceData = {
       "Quality assurance after service completion.",
     ],
 
-    /* H2 */
+    /* h1 */
     apartmentSectionTitle: "Apartment Sofa & Curtain Cleaning Services",
     apartmentSectionIntro:
       "Our apartment cleaning services ensure sofas, carpets, and curtains are cleaned thoroughly without disturbing your daily routine.",
@@ -406,7 +386,7 @@ const serviceData = {
       "Deodorizing bathrooms after cleaning.",
     ],
 
-    videoUrl: "https://www.youtube.com/embed/hU_3qp2t-KE",
+    videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
 
     finalSectionContent: [
       "Al-Ameka Cleaning Company follows strict hygiene standards while cleaning kitchens and bathrooms to ensure customer safety and satisfaction.",
@@ -567,7 +547,12 @@ const ServiceDetail = () => {
         {service.intro && (
           <p className="service-intro">{service.intro}</p>
         )}
-
+       {/* Section Title */}
+        {service.sectionTitle && (
+          <h1 className="service-heading">
+            {service.sectionTitle}
+          </h1>
+        )}
         {/* Intro Points */}
         {service.points?.length > 0 && (
           <ul className="service-list">
@@ -577,12 +562,7 @@ const ServiceDetail = () => {
           </ul>
         )}
 
-        {/* Section Title */}
-        {service.sectionTitle && (
-          <h2 className="service-heading">
-            {service.sectionTitle}
-          </h2>
-        )}
+        
 
         {/* Section Intro */}
         {service.sectionIntro && (
@@ -601,9 +581,9 @@ const ServiceDetail = () => {
         {/* Extra Section */}
         {service.extraSectionTitle && (
           <>
-            <h2 className="service-heading">
+            <h1 className="service-heading">
               {service.extraSectionTitle}
-            </h2>
+            </h1>
 
             {service.extraSectionIntro && (
               <p className="service-intro">
@@ -657,9 +637,9 @@ const ServiceDetail = () => {
         {/* Professional Section */}
         {service.professionalSectionTitle && (
           <>
-            <h2 className="service-heading">
+            <h1 className="service-heading">
               {service.professionalSectionTitle}
-            </h2>
+            </h1>
 
             {service.professionalSectionIntro && (
               <p className="service-paragraph">
@@ -680,9 +660,9 @@ const ServiceDetail = () => {
         {/* Apartment Section */}
         {service.apartmentSectionTitle && (
           <>
-            <h2 className="service-heading">
+            <h1 className="service-heading">
               {service.apartmentSectionTitle}
-            </h2>
+            </h1>
 
             {service.apartmentSectionIntro && (
               <p className="service-paragraph">
@@ -703,7 +683,7 @@ const ServiceDetail = () => {
         {/* Contact */}
         {service.contactNumbers?.length > 0 && (
           <div className="service-contact">
-            <h2 className="service-heading">Contact Us</h2>
+            <h1 className="service-heading">Contact Us</h1>
 
             <div className="contact-numbers">
               {service.contactNumbers.map((num, index) => (
