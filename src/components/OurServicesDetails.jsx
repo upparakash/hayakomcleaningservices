@@ -2,6 +2,12 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import "./OurServicesDetails.css";
 import HomeCleaningImg from './images/image1.jpg'
+import OfficeCleaningService from './images/offficecleaningservice.PNG';
+import FloorCleaningService  from './images/floorcleaningservice.PNG';
+import FadeCleaningService  from './images/fadecleaningservice.PNG';
+import CurtainCleaningService  from './images/curtaincleaningservice.PNG';
+import BathroomCleaningService  from './images/bathroomcleaningservice.PNG';
+
 
 /* Service content map (can be API-driven later) */
 const serviceData = {
@@ -56,6 +62,70 @@ const serviceData = {
 
   finalSectionContent: [
     "As a dependable home cleaning service provider in Kuwait, Hayakom Cleaning Services is committed to delivering superior results and complete customer satisfaction.",
+    "Our mission is to provide consistent quality and long-lasting cleanliness for every client.",
+    "We aim to build long-term relationships by offering honest service, professional standards, and dependable support.",
+  ],
+
+  videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
+
+  contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
+
+  image: HomeCleaningImg,
+},
+"carpet-cleaning-services": {
+  title: "Carpet Cleaning Services in Kuwait",
+
+  intro: `Hayakom Cleaning Services provides professional carpet cleaning services in Kuwait, helping restore the cleanliness, freshness, and appearance of all types of carpets.
+
+Carpets trap dust, allergens, stains, and bacteria deep within the fibers, which regular vacuuming cannot remove. Our specialized carpet cleaning solutions ensure deep hygiene and long-lasting results.
+
+We use advanced cleaning techniques and professional equipment to deliver safe and effective carpet cleaning for residential and commercial spaces.`,
+
+  sectionTitle: "Professional Carpet Cleaning Solutions",
+
+  sectionIntro: `At Hayakom Cleaning Services, we offer customized carpet cleaning services based on carpet type and condition:`,
+
+  points: [
+    "Deep cleaning for all carpet types",
+    "Removal of dirt, stains, and embedded dust",
+    "Steam cleaning to eliminate germs and allergens",
+    "Odor removal and freshness treatment",
+    "Gentle cleaning methods to protect fibers and colors",
+  ],
+
+  extraNote:
+    "Our cleaning process improves carpet appearance while extending its lifespan.",
+
+  extraSectionTitle: "Advanced Equipment & Safe Cleaning Products",
+
+  extraSectionIntro: `We use modern steam cleaning machines and high-performance tools that penetrate deep into carpet fibers to remove hidden contaminants.
+
+All cleaning products are eco-friendly, non-toxic, and safe for children, pets, and indoor environments.`,
+
+  extraSectionPoints: [
+    "Homes, apartments, and villas",
+    "Offices and corporate buildings",
+    "Restaurants, lounges, and waiting areas",
+    "Shops, mosques, and public areas",
+  ],
+
+  offerNote:
+    "No matter the size or usage, we ensure hygienic and refreshed carpets.",
+
+  professionalSectionTitle: "Why Choose Hayakom Carpet Cleaning Services?",
+
+  professionalSectionPoints: [
+    "Experienced and trained carpet cleaning professionals",
+    "Advanced steam-cleaning and deep-cleaning technology",
+    "Safe, high-quality cleaning materials",
+    "Attention to detail and fabric care",
+    "Affordable pricing with flexible service options",
+  ],
+
+  finalSectionTitle: "Book Carpet Cleaning Services Today",
+
+  finalSectionContent: [
+    "Restore the beauty and hygiene of your carpets with professional carpet cleaning from Hayakom Cleaning Services. Contact us today to schedule your service and enjoy cleaner, fresher, and healthier carpets.",
     "Our mission is to provide consistent quality and long-lasting cleanliness for every client.",
     "We aim to build long-term relationships by offering honest service, professional standards, and dependable support.",
   ],
@@ -211,7 +281,7 @@ All cleaning products used are eco-friendly, non-toxic, and safe for children an
 
   contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
 
-  image: HomeCleaningImg,
+  image: CurtainCleaningService,
 },
 
   "Facade-cleaning-services": {
@@ -277,7 +347,7 @@ All cleaning agents used are eco-friendly and safe for the building surface and 
 
   contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
 
-  image: HomeCleaningImg,
+  image: FadeCleaningService,
 },
 
 "office-commercial-cleaning": {
@@ -343,7 +413,7 @@ We respect your working hours and ensure cleaning tasks are completed efficientl
 
   contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
 
-  image: HomeCleaningImg,
+  image: OfficeCleaningService,
 },
 
 
@@ -474,7 +544,7 @@ Our expert team uses modern equipment and safe cleaning products to ensure these
 
   contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
 
-  image: HomeCleaningImg,
+  image: BathroomCleaningService,
 },
 
 
@@ -541,7 +611,7 @@ All products used are safe for homes, offices, pets, and children. Steam cleanin
 
   contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
 
-  image: HomeCleaningImg,
+  image: FloorCleaningService,
 },
 
 

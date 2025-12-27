@@ -72,8 +72,8 @@ const Navbar = () => {
             <div className="col">
               <h4>DETAILED CLEANING</h4>
               <Link to="/services/home-cleaning-services">Home Cleaning Services</Link>
-              <Link to="/services/deep-cleaning-services">Deep Cleaning Services</Link>
-              <Link to="/services/move-in-out-cleaning">Move-In / Move-Out Cleaning</Link>
+              <Link to="/services/home-cleaning-services">Deep Cleaning Services</Link>
+              <Link to="/services/home-cleaning-services">Move-In / Move-Out Cleaning</Link>
               <Link to="/services/floor-tile-cleaning">Floor & Tile Cleaning</Link>
               <Link to="/services/office-commercial-cleaning">Office & Commercial Cleaning</Link>
               <Link to="/services/kitchen-bathroom-cleaning">Kitchen & Bathroom Cleaning</Link>
@@ -82,21 +82,21 @@ const Navbar = () => {
 
             <div className="col">
               <h4>SPECIAL CARE</h4>
-              <Link to="/services/sofa-cleaning">Sofa Cleaning</Link>
-              <Link to="/services/carpet-cleaning">Carpet Cleaning</Link>
+              <Link to="/services/sofa-carpet-curtain-cleaning">Sofa Cleaning</Link>
+              <Link to="/services/carpet-cleaning-services">Carpet Cleaning</Link>
               <Link to="/services/curtain-cleaning-services">Curtain Cleaning</Link>
             </div>
 
             <div className="col">
               <h4>KITCHEN CLEANING</h4>
-              <Link to="/services/kitchen-cleaning">Kitchen Cleaning</Link>
-              <Link to="/services/kitchen-appliances-cleaning">Kitchen Appliances Cleaning</Link>
+              <Link to="/services/kitchen-bathroom-cleaning">Kitchen Cleaning</Link>
+              <Link to="/services/kitchen-bathroom-cleaning">Kitchen Appliances Cleaning</Link>
             </div>
 
             <div className="col">
               <h4>BEAUTY PARLOUR CLEANING</h4>
-              <Link to="/services/salon-area-cleaning">Salon Area Cleaning</Link>
-              <Link to="/services/equipment-tools-cleaning">Equipment & Tools Cleaning</Link>
+              <Link to="/services/home-cleaning-services">Salon Area Cleaning</Link>
+              <Link to="/services/home-cleaning-services">Equipment & Tools Cleaning</Link>
             </div>
           </div>
         </li>
