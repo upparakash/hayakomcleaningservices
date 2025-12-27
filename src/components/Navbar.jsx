@@ -77,14 +77,14 @@ const Navbar = () => {
               <Link to="/services/floor-tile-cleaning">Floor & Tile Cleaning</Link>
               <Link to="/services/office-commercial-cleaning">Office & Commercial Cleaning</Link>
               <Link to="/services/kitchen-bathroom-cleaning">Kitchen & Bathroom Cleaning</Link>
-              <Link to="/services/facade-cleaning">Facade Cleaning</Link>
+              <Link to="/services/Facade-cleaning-services">Facade Cleaning</Link>
             </div>
 
             <div className="col">
               <h4>SPECIAL CARE</h4>
               <Link to="/services/sofa-cleaning">Sofa Cleaning</Link>
               <Link to="/services/carpet-cleaning">Carpet Cleaning</Link>
-              <Link to="/services/curtain-cleaning">Curtain Cleaning</Link>
+              <Link to="/services/curtain-cleaning-services">Curtain Cleaning</Link>
             </div>
 
             <div className="col">

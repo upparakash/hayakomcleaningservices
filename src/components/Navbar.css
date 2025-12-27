@@ -14,7 +14,7 @@
 
 /* LOGO */
 .nav-logo img {
-  height: 70px;
+  height: 80px;
   width: auto;
 }
 
@@ -141,13 +141,15 @@
 .nav-social-contact {
   display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 40px;
+  
 }
 
 /* Social icons */
 .nav-social {
   display: flex;
   gap: 14px;
+  
 }
 
 .nav-social a {

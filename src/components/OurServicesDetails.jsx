@@ -149,301 +149,401 @@ const serviceData = {
     closingContent:
       "With Al-Ameka Maid Services, you can enjoy a comfortable, clean, and well-managed home without stress. Contact us today to book professional maid services in Kuwait and experience the difference of trusted domestic support.",
   },
+  "curtain-cleaning-services": {
+  title: "Curtain Cleaning Services in Kuwait",
 
-  "deep-cleaning-services": {
-    title: "Deep Cleaning Services",
+  intro: `Hayakom Cleaning Services provides professional curtain cleaning services in Kuwait, designed to remove dust, stains, odors, and allergens while protecting fabric quality.
 
-    intro:
-      "Al-Ameka Deep Cleaning Services provide intensive and detailed cleaning solutions designed to eliminate dirt, germs, and hidden contaminants from every corner of your property.",
+Curtains collect airborne dust and pollutants over time, affecting indoor air quality and appearance. Our specialized cleaning solutions ensure fresh, clean, and well-maintained curtains.
 
-    points: [
-      "Complete deep cleaning for homes, apartments, and villas.",
-      "Removal of stubborn dirt, grease, and bacteria.",
-      "Advanced equipment and professional-grade cleaning agents.",
-      "Ideal for seasonal cleaning and post-renovation cleanup.",
-    ],
+We use safe cleaning methods and modern equipment to deliver effective results without damaging fabrics.`,
 
-    sectionTitle: "24-Hour Deep Cleaning Company",
-    sectionIntro:
-      "We provide round-the-clock deep cleaning services in Kuwait, ensuring fast response and flexible scheduling for urgent cleaning needs.",
-    sectionPoints: [
-      "Emergency deep cleaning services available.",
-      "Experienced and trained cleaning professionals.",
-      "Quick service execution with guaranteed quality.",
-    ],
+  sectionTitle: "Professional Curtain Cleaning Solutions",
 
-    extraSectionTitle: "Professional Deep Cleaning Services in Salmiya",
-    extraSectionIntro:
-      "Our deep cleaning services in Salmiya focus on detailed sanitation and hygiene to maintain a healthy living and working environment.",
-    extraSectionPoints: [
-      "Deep cleaning of kitchens, bathrooms, and living areas.",
-      "Sanitization of frequently touched surfaces.",
-      "Safe cleaning products suitable for families and pets.",
-    ],
+  sectionIntro: `At Hayakom Cleaning Services, we offer tailored curtain cleaning services for different fabric types:`,
 
-    videoUrl: "",
+  points: [
+    "Deep cleaning for fabric, cotton, silk, and synthetic curtains",
+    "Removal of dust, stains, and unpleasant odors",
+    "Steam cleaning to eliminate germs and allergens",
+    "Gentle cleaning methods to preserve fabric texture and color",
+    "On-site curtain cleaning without removal (where suitable)",
+  ],
 
-    finalSectionContent: [
-      "Al-Ameka Company is a trusted name in deep cleaning services in Kuwait, offering thorough cleaning solutions using modern tools and expert staff.",
-      "Our deep cleaning process is designed to reach areas that are often neglected during routine cleaning, ensuring long-lasting cleanliness.",
-    ],
+  extraNote:
+    "Our team selects the most appropriate cleaning technique based on curtain material and condition.",
 
-    image: HomeCleaningImg,
+  extraSectionTitle: "Advanced Equipment & Safe Cleaning Products",
 
-    professionalSectionTitle: "Professional Deep Cleaning Company",
-    professionalSectionIntro:
-      "Our professional deep cleaning team follows strict quality standards to ensure superior results for every project.",
-    professionalSectionPoints: [
-      "Highly trained deep cleaning specialists.",
-      "Guaranteed service satisfaction.",
-      "Use of eco-friendly and effective materials.",
-    ],
+  extraSectionIntro: `We use modern steam cleaning machines and professional tools that penetrate deep into curtain fibers.
 
-    apartmentSectionTitle: "Apartment Deep Cleaning Services",
-    apartmentSectionIntro:
-      "We provide specialized deep cleaning services for apartments of all sizes with minimal disruption to residents.",
-    apartmentSectionPoints: [
-      "Suitable for studios, 1BHK, and large apartments.",
-      "No need to vacate the premises during service.",
-      "Affordable deep cleaning packages.",
-    ],
+All cleaning products used are eco-friendly, non-toxic, and safe for children and pets. Our cleaning process ensures quick drying and minimal disruption to your daily routine.`,
 
-    contactNumbers: ["+965 55396880", "+965 50449213","+965 60446934"],
+  extraSectionPoints: [
+    "Homes, apartments, and villas",
+    "Offices and corporate buildings",
+    "Restaurants, lounges, and waiting areas",
+    "Shops, mosques, and public areas",
+  ],
 
-    closingContent:
-      "Choose Al-Ameka Deep Cleaning Services for a healthier, cleaner space. Contact us today to schedule a professional deep cleaning service in Kuwait.",
-  },
+  offerNote:
+    "No matter the size or usage, we ensure hygienic and refreshed curtains.",
 
-  "office-commercial-cleaning": {
+  professionalSectionTitle: "Why Choose Hayakom Curtain Cleaning Services?",
+
+  professionalSectionPoints: [
+    "Experienced and trained curtain cleaning professionals",
+    "Advanced steam-cleaning and deep-cleaning technology",
+    "Safe, high-quality cleaning materials",
+    "Attention to detail and fabric care",
+    "Affordable pricing with flexible service options",
+  ],
+
+  finalSectionTitle: "Book Curtain Cleaning Services Today",
+
+  finalSectionContent: [
+    "Refresh your space with professional curtain cleaning from Hayakom Cleaning Services. Contact us today to schedule your service and enjoy clean, fresh, and hygienic curtains.",
+    "Our mission is to provide consistent quality and long-lasting cleanliness for every client.",
+    "We aim to build long-term relationships by offering honest service, professional standards, and dependable support.",
+  ],
+
+  videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
+
+  contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
+
+  image: HomeCleaningImg,
+},
+
+  "Facade-cleaning-services": {
+   title: "Facade Cleaning Services in Kuwait",
+
+  intro: `Hayakom Cleaning Services provides professional facade cleaning services in Kuwait, helping buildings maintain a clean, attractive, and well-maintained exterior.
+
+Over time, building facades collect dust, pollution, stains, and environmental deposits that affect appearance and surface quality. Our facade cleaning solutions restore cleanliness while protecting the structure.
+
+We use safe, modern cleaning methods and trained professionals to clean building exteriors efficiently and responsibly.`,
+
+  sectionTitle: "Professional Facade Cleaning Solutions",
+
+  sectionIntro: `At Hayakom Cleaning Services, we offer complete facade cleaning services for different building types and surfaces:`,
+
+  points: [
+    "Cleaning of glass, aluminum, stone, marble, and concrete facades",
+    "Removal of dust, pollution marks, algae, and surface stains",
+    "Exterior wall and cladding cleaning",
+    "Window and glass panel cleaning",
+    "Safe high-rise and low-rise building cleaning",
+  ],
+
+  extraNote:
+    "Our cleaning methods are selected based on the surface material to prevent damage and ensure long-lasting results.",
+
+  extraSectionTitle: "Advanced Equipment & Safe Cleaning Methods",
+
+  extraSectionIntro: `We use modern equipment such as water-fed poles, pressure cleaning systems, and specialized tools for facade cleaning.
+
+All cleaning agents used are eco-friendly and safe for the building surface and surrounding environment.`,
+
+  extraSectionPoints: [
+    "Residential buildings and villas",
+    "Commercial buildings and office towers",
+    "Shopping centers and showrooms",
+    "Hotels and hospitality buildings",
+    "Industrial and public facilities",
+  ],
+
+  offerNote:
+    "We customize our services according to building size, height, and surface type.",
+
+  professionalSectionTitle: "Why Choose Hayakom Facade Cleaning Services?",
+
+  professionalSectionPoints: [
+    "Experienced and trained facade cleaning professionals",
+    "Safe and advanced cleaning equipment",
+    "Surface-specific cleaning techniques",
+    "High safety and quality standards",
+    "Affordable pricing with flexible service plans",
+  ],
+
+  finalSectionTitle: "Book Facade Cleaning Services Today",
+
+  finalSectionContent: [
+    "Enhance the appearance and value of your building with professional facade cleaning from Hayakom Cleaning Services. Contact us today to schedule your service and enjoy a clean, refreshed building exterior.",
+    "Our mission is to provide consistent quality and long-lasting cleanliness for every client.",
+    "We aim to build long-term relationships by offering honest service, professional standards, and dependable support.",
+  ],
+
+  videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
+
+  contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
+
+  image: HomeCleaningImg,
+},
+
+"office-commercial-cleaning": {
+  title: "Office & Commercial Cleaning Services in Kuwait",
+
+  intro: `Hayakom Cleaning Services provides reliable and professional office and commercial cleaning services in Kuwait, helping businesses maintain clean, organized, and healthy work environments.
+
+A clean workplace improves productivity, creates a positive impression, and ensures better hygiene for employees and visitors.
+
+We deliver customized cleaning solutions using modern equipment, safe cleaning products, and trained staff to meet the daily and periodic cleaning needs of all types of commercial spaces.`,
+
+  sectionTitle: "Professional Office & Commercial Cleaning Solutions",
+
+  sectionIntro: `At Hayakom Cleaning Services, we offer a comprehensive range of cleaning services designed for offices and commercial establishments:`,
+
+  points: [
+    "Daily, weekly, and monthly office cleaning services",
+    "Cleaning of workstations, desks, and office furniture",
+    "Floor, tile, and carpet cleaning",
+    "Washroom and pantry cleaning and disinfection",
+    "Glass, window, and partition cleaning",
+  ],
+
+  extraNote:
+    "Our services are planned to minimize disruption to business operations while maintaining high cleanliness standards.",
+
+  extraSectionTitle: "Flexible Scheduling & 24-Hour Service",
+
+  extraSectionIntro: `Hayakom Cleaning Services offers flexible scheduling, including after-hours and 24-hour cleaning services, to suit business requirements.
+
+We respect your working hours and ensure cleaning tasks are completed efficiently and on time.`,
+
+  extraSectionPoints: [
+    "Corporate offices and business centers",
+    "Shops, showrooms, and retail outlets",
+    "Restaurants, cafes, and food courts",
+    "Hotels and hospitality spaces",
+    "Schools, clinics, and commercial buildings",
+  ],
+
+  offerNote:
+    "We tailor our services based on the size, type, and specific needs of your business.",
+
+  professionalSectionTitle: "Why Choose Hayakom Office & Commercial Cleaning?",
+
+  professionalSectionPoints: [
+    "Experienced and professional cleaning teams",
+    "Advanced cleaning equipment and techniques",
+    "Safe and high-quality cleaning materials",
+    "Flexible service plans and affordable pricing",
+    "Reliable service with attention to detail",
+  ],
+
+  finalSectionTitle: "Book Office & Commercial Cleaning Services Today",
+
+  finalSectionContent: [
+    "Maintain a clean and productive workplace with Hayakom Cleaning Services. Contact us today to schedule your office or commercial cleaning service and experience professional, dependable, and high-quality cleaning solutions.",
+    "Our mission is to provide consistent quality and long-lasting cleanliness for every client.",
+    "We aim to build long-term relationships by offering honest service, professional standards, and dependable support.",
+  ],
+
+  videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
+
+  contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
+
+  image: HomeCleaningImg,
+},
 
 
-    title: "Office & Commercial Cleaning",
 
-    intro:
-      "Al-Ameka Cleaning Company provides professional office and commercial cleaning services designed to maintain a clean, productive, and professional working environment.",
+"sofa-carpet-curtain-cleaning": {
+  title: "Sofa Cleaning Services in Kuwait",
 
-    points: [
-      "Daily, weekly, and monthly office cleaning services.",
-      "Cleaning solutions for offices, shops, malls, and commercial buildings.",
-      "Disinfection of workstations, meeting rooms, and common areas.",
-      "Use of eco-friendly and industry-approved cleaning materials.",
-      "Flexible service schedules to avoid work disruption.",
-    ],
+  intro: `Hayakom Cleaning Services offers professional sofa cleaning services in Kuwait, designed to restore the freshness, comfort, and appearance of your upholstered furniture.
 
-    sectionTitle: "Professional Commercial Cleaning Company",
-    sectionIntro:
-      "Our commercial cleaning services are tailored to meet the unique needs of businesses across Kuwait.",
-    sectionPoints: [
-      "Experienced staff trained in commercial cleaning standards.",
-      "Cleaning of offices, showrooms, warehouses, and retail spaces.",
-      "Specialized cleaning equipment for large areas.",
-      "Strict quality checks and supervision.",
-    ],
+Sofas collect dust, stains, allergens, and bacteria over time, which regular cleaning cannot fully remove. Our specialized sofa cleaning solutions ensure deep cleanliness and long-lasting results.
 
-    extraSectionTitle: "Office Cleaning Services in Kuwait",
-    extraSectionIntro:
-      "Al-Ameka offers reliable office cleaning services that help businesses maintain hygiene, productivity, and a professional appearance.",
-    extraSectionPoints: [
-      "Cleaning desks, chairs, floors, and office equipment.",
-      "Washroom and pantry cleaning with sanitization.",
-      "Waste management and trash disposal.",
-      "Customized packages for small and large offices.",
-    ],
+We use advanced cleaning techniques and safe products to protect fabric quality while delivering effective cleaning.`,
 
-    finalSectionContent: [
-      "Al-Ameka Cleaning Company is trusted by businesses across Kuwait for delivering consistent and high-quality commercial cleaning services.",
-      "We understand that a clean workplace reflects your brand image, which is why we focus on detail, reliability, and hygiene standards.",
-    ],
+  sectionTitle: "Professional Sofa Cleaning Solutions",
 
-    professionalSectionTitle: "Why Choose Al-Ameka for Commercial Cleaning",
-    professionalSectionIntro:
-      "Our commercial cleaning team is committed to delivering excellence in every service.",
-    professionalSectionPoints: [
-      "Trained and uniformed cleaning staff.",
-      "Reliable service with performance guarantees.",
-      "Competitive pricing with customized contracts.",
-      "24/7 customer support for businesses.",
-    ],
+  sectionIntro: `At Hayakom Cleaning Services, we provide customized sofa cleaning services for different upholstery types:`,
 
-    contactNumbers: ["+965 55396880", "+965 50449213","+965 60446934"],
+  points: [
+    "Deep cleaning for fabric, leather, and suede sofas",
+    "Removal of stains, dirt, and unpleasant odors",
+    "Steam cleaning to eliminate germs and allergens",
+    "Gentle cleaning methods to protect color and texture",
+    "Quick-drying techniques for convenience",
+  ],
 
-    closingContent:
-      "Maintain a clean and professional workplace with Al-Ameka Office & Commercial Cleaning Services. Contact us today to receive a customized cleaning plan for your business.",
-  },
+  extraNote:
+    "Our team carefully selects the best cleaning method based on the sofa material and condition.",
 
-  "sofa-carpet-curtain-cleaning": {
-    /* H1 */
-    title: "Sofa, Carpet & Curtain Cleaning",
+  extraSectionTitle: "Suitable for Residential & Commercial Spaces",
 
-    /* Intro */
-    intro:
-      "Al-Ameka Cleaning Company provides professional sofa, carpet, and curtain cleaning services in Kuwait using advanced techniques to remove dirt, stains, odors, and allergens while preserving fabric quality.",
+  extraSectionIntro: `Our sofa cleaning services are ideal for:`,
 
-    points: [
-      "Deep cleaning for sofas, carpets, rugs, and curtains.",
-      "Removal of dust, stains, bacteria, and allergens.",
-      "Steam cleaning using modern equipment.",
-      "Safe cleaning materials suitable for children and pets.",
-      "Restores freshness and extends fabric life.",
-    ],
+  extraSectionPoints: [
+    "Homes, apartments, and villas",
+    "Offices and corporate spaces",
+    "Hotels and hospitality areas",
+    "Restaurants, lounges, and waiting areas",
+    "Schools, clinics, and commercial buildings",
+  ],
 
-    /* h1 */
-    sectionTitle: "24-Hour Sofa & Carpet Cleaning Company",
-    sectionIntro:
-      "Al-Ameka Cleaning® offers 24-hour sofa, carpet, and curtain cleaning services to meet urgent and scheduled cleaning needs with fast and reliable service.",
-    sectionPoints: [
-      "Emergency and same-day cleaning services available.",
-      "Flexible booking based on customer convenience.",
-      "Experienced staff trained in fabric care.",
-      "Guaranteed service quality and customer satisfaction.",
-    ],
+  offerNote:
+    "No matter the setting, we ensure hygienic and refreshed furniture.",
 
-    /* h1 */
-    extraSectionTitle: "Professional Upholstery Cleaning in Salmiya",
-    extraSectionIntro:
-      "Our upholstery cleaning services in Salmiya are designed to deliver deep hygiene and long-lasting cleanliness for homes and commercial spaces.",
-    extraSectionPoints: [
-      "Steam cleaning for sofas and upholstered furniture.",
-      "Deep carpet and rug cleaning with stain removal.",
-      "Curtain cleaning without fabric damage or shrinkage.",
-      "Odor removal and fabric sanitization.",
-    ],
+  professionalSectionTitle: "Why Choose Hayakom Sofa Cleaning Services?",
 
-    /* Optional Video */
-    videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
+  professionalSectionPoints: [
+    "Experienced and trained cleaning professionals",
+    "Advanced steam and upholstery cleaning technology",
+    "Safe, high-quality cleaning materials",
+    "Attention to detail and fabric care",
+    "Affordable pricing with flexible service options",
+  ],
 
-    /* Long-form Content */
-    finalSectionContent: [
-      "Al-Ameka Cleaning Company is one of the trusted names in Kuwait for upholstery and fabric cleaning services. We use advanced steam technology to remove deep-seated dirt and bacteria effectively.",
-      "Our team understands the importance of fabric care, which is why we select cleaning methods suitable for each material to avoid damage while delivering excellent results.",
-      "We aim to provide clean, fresh, and hygienic living spaces for our customers through reliable services and competitive pricing.",
-    ],
+  finalSectionTitle: "Book Sofa Cleaning Services Today",
 
-    /* Image */
-    image: HomeCleaningImg,
+  finalSectionContent: [
+    "Refresh your furniture with professional sofa cleaning from Hayakom Cleaning Services. Contact us today to schedule your service and enjoy clean, fresh, and hygienic sofas.",
+    "Our mission is to provide consistent quality and long-lasting cleanliness for every client.",
+    "We aim to build long-term relationships by offering honest service, professional standards, and dependable support.",
+  ],
 
-    /* h1 */
-    professionalSectionTitle: "Professional Sofa & Carpet Cleaning Company",
-    professionalSectionIntro:
-      "Al-Ameka Cleaning® employs trained professionals who specialize in cleaning delicate fabrics, carpets, and curtains using industry-approved methods.",
-    professionalSectionPoints: [
-      "High customer satisfaction and repeat clients.",
-      "Advanced steam and dry-cleaning techniques.",
-      "Safe and eco-friendly cleaning materials.",
-      "Quality assurance after service completion.",
-    ],
+  videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
 
-    /* h1 */
-    apartmentSectionTitle: "Apartment Sofa & Curtain Cleaning Services",
-    apartmentSectionIntro:
-      "Our apartment cleaning services ensure sofas, carpets, and curtains are cleaned thoroughly without disturbing your daily routine.",
-    apartmentSectionPoints: [
-      "Ideal for apartments and villas of all sizes.",
-      "No need to remove furniture or curtains.",
-      "Quick drying and minimal disruption.",
-      "Affordable packages for households.",
-    ],
+  contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
 
-    /* Contact */
-    contactNumbers: ["+965 55396880", "+965 50449213","+965 60446934"],
+  image: HomeCleaningImg,
+},
 
-    /* Closing CTA */
-    closingContent:
-      "Choose Al-Ameka Cleaning Company for professional sofa, carpet, and curtain cleaning services in Kuwait. Contact us today to enjoy a cleaner, healthier, and fresher home environment.",
-  },
 
   "kitchen-bathroom-cleaning": {
-    title: "Kitchen & Bathroom Cleaning",
+  title: "Kitchen & Bathroom Cleaning Services in Kuwait",
 
-    intro:
-      "Al-Ameka Cleaning Company provides professional kitchen and bathroom cleaning services in Kuwait, ensuring complete hygiene, deep sanitation, and long-lasting cleanliness.",
+  intro: `Hayakom Cleaning Services provides professional kitchen and bathroom cleaning services in Kuwait, focusing on deep hygiene, safety, and freshness.
 
-    points: [
-      "Deep kitchen cleaning with grease and stain removal.",
-      "Bathroom sanitation using safe disinfectants.",
-      "Removal of odors, bacteria, and mold.",
-      "Cleaning of tiles, sinks, toilets, and cabinets.",
-      "Use of eco-friendly and human-safe cleaning agents.",
-    ],
+Kitchens and bathrooms are the most frequently used areas in any home and require specialized cleaning to remove grease, stains, germs, and odors.
 
-    sectionTitle: "Professional Kitchen Cleaning Services",
-    sectionIntro:
-      "Our kitchen cleaning services are designed to eliminate grease buildup, food stains, and harmful bacteria from all kitchen surfaces.",
-    sectionPoints: [
-      "Cleaning kitchen cabinets, shelves, and countertops.",
-      "Degreasing exhaust fans and cooking areas.",
-      "Sanitizing sinks and drainage areas.",
-      "Removing stubborn oil and food stains.",
-    ],
+Our expert team uses modern equipment and safe cleaning products to ensure these areas are thoroughly cleaned, sanitized, and refreshed.`,
 
-    extraSectionTitle: "Bathroom Deep Cleaning Services",
-    extraSectionIntro:
-      "We provide deep bathroom cleaning services to maintain hygiene and prevent the spread of germs and unpleasant odors.",
-    extraSectionPoints: [
-      "Cleaning and disinfecting toilets and wash basins.",
-      "Removing stains from tiles and grout.",
-      "Sterilizing showers, bathtubs, and mirrors.",
-      "Deodorizing bathrooms after cleaning.",
-    ],
+  sectionTitle: "Professional Kitchen Cleaning Services",
 
-    videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
+  sectionIntro: `At Hayakom Cleaning Services, we deliver detailed kitchen cleaning to maintain hygiene and cleanliness:`,
 
-    finalSectionContent: [
-      "Al-Ameka Cleaning Company follows strict hygiene standards while cleaning kitchens and bathrooms to ensure customer safety and satisfaction.",
-      "Our trained staff uses professional tools and approved disinfectants to deliver visible results from the first visit.",
-      "We provide flexible scheduling options suitable for homes, apartments, and villas.",
-    ],
+  points: [
+    "Deep cleaning of countertops, cabinets, and drawers",
+    "Degreasing of stoves, ovens, chimneys, and exhaust fans",
+    "Sink, tap, and backsplash cleaning",
+    "Floor and wall tile cleaning",
+    "Disinfection of food preparation areas",
+  ],
 
-    image: HomeCleaningImg,
+  extraNote:
+    "We remove tough grease and stains while protecting kitchen surfaces and ensuring a safe cooking environment.",
 
-    professionalSectionTitle: "Professional Kitchen & Bathroom Cleaning Company",
-    professionalSectionIntro:
-      "Our experienced cleaning team specializes in kitchen and bathroom sanitation, delivering reliable and high-quality services.",
-    professionalSectionPoints: [
-      "Trained and experienced cleaning professionals.",
-      "Guaranteed hygiene and sanitation standards.",
-      "Use of advanced cleaning equipment.",
-      "Attention to detail in hard-to-reach areas.",
-    ],
+  extraSectionTitle: "Professional Bathroom & Toilet Cleaning Services",
 
-    contactNumbers: ["+965 55396880", "+965 50449213","+965 60446934"],
+  extraSectionIntro: `Our bathroom cleaning services are designed to eliminate germs and restore freshness:`,
 
-    closingContent:
-      "Choose Al-Ameka for professional kitchen and bathroom cleaning services in Kuwait and enjoy a clean, healthy, and germ-free home. Contact us today to book your service.",
-  },
+  extraSectionPoints: [
+    "Deep cleaning and sanitization of toilets, sinks, and showers",
+    "Removal of limescale, soap residue, and mold",
+    "Cleaning of mirrors, fittings, and accessories",
+    "Floor and wall tile cleaning and disinfection",
+    "Odor removal and hygiene treatment",
+  ],
+
+  offerNote:
+    "We ensure bathrooms are hygienic, fresh, and safe for daily use.",
+
+  professionalSectionTitle: "Why Choose Hayakom Kitchen & Bathroom Cleaning?",
+
+  professionalSectionPoints: [
+    "Experienced and trained cleaning professionals",
+    "Specialized cleaning methods for kitchens and bathrooms",
+    "Safe, high-quality cleaning materials",
+    "Attention to detail and hygiene standards",
+    "Affordable pricing with flexible service options",
+  ],
+
+  finalSectionTitle: "Book Kitchen & Bathroom Cleaning Services Today",
+
+  finalSectionContent: [
+    "Ensure deep hygiene and freshness with professional kitchen and bathroom cleaning from Hayakom Cleaning Services. Contact us today to schedule your service and enjoy a cleaner, healthier space.",
+    "Our mission is to provide consistent quality and long-lasting cleanliness for every client.",
+    "We aim to build long-term relationships by offering honest service, professional standards, and dependable support.",
+  ],
+
+  videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
+
+  contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
+
+  image: HomeCleaningImg,
+},
+
 
   "floor-tile-cleaning": {
-    title: "Floor & Tile Cleaning",
-    intro:
-      "Our floor and tile cleaning services are designed to restore shine, remove stubborn dirt, and extend the life of your surfaces.",
+  title: "Floor and Tile Cleaning Services in Kuwait",
 
-    points: [
-      "Deep cleaning for ceramic, marble, granite, and parquet floors.",
-      "Removal of stains, grease, and embedded dirt.",
-      "Safe cleaning agents suitable for all floor types.",
-      "Professional equipment for long-lasting cleanliness.",
-    ],
+  intro: `Hayakom Cleaning Services provides professional floor and tile cleaning solutions in Kuwait, designed to restore the cleanliness, shine, and hygiene of all types of flooring.
 
-    sectionTitle: "Professional Floor & Tile Cleaning",
-    sectionIntro:
-      "Al-Ameka Cleaning® provides expert floor and tile cleaning services using advanced tools and eco-friendly solutions.",
-    sectionPoints: [
-      "Specialized machines for deep scrubbing.",
-      "Trained technicians with surface-specific expertise.",
-      "Residential and commercial floor cleaning services.",
-    ],
+Over time, floors and tiles collect dirt, stains, and bacteria that regular cleaning cannot remove. Our specialized cleaning service ensures deep cleanliness and long-lasting results.
 
-    finalSectionContent: [
-      "Our floor and tile cleaning service ensures a hygienic and polished appearance for your home or workplace. We focus on removing deep-seated dirt while protecting the surface material.",
-    ],
+We use advanced cleaning techniques, modern equipment, and trained professionals to deliver safe and effective floor and tile cleaning for residential and commercial spaces.`,
 
-    image: HomeCleaningImg,
+  sectionTitle: "Professional Floor & Tile Cleaning Solutions",
 
-    contactNumbers: ["+965 55396880", "+965 50449213","+965 60446934"],
+  sectionIntro: `At Hayakom Cleaning Services, we offer complete floor and tile cleaning services tailored to different surfaces and environments:`,
 
-    closingContent:
-      "Contact Al-Ameka Cleaning today for professional floor and tile cleaning services in Kuwait and enjoy spotless, shining floors.",
-  },
+  points: [
+    "Deep cleaning for ceramic, porcelain, marble, granite, and stone tiles",
+    "Removal of tough stains, grease, and embedded dirt",
+    "Cleaning and restoration of grout lines",
+    "Polishing and shine enhancement for floors",
+    "Safe cleaning for wooden and laminated flooring (surface treatment)",
+  ],
+
+  extraNote:
+    "Our methods help protect the surface while improving appearance and hygiene.",
+
+  extraSectionTitle: "Advanced Equipment & Safe Cleaning Products",
+
+  extraSectionIntro: `We use professional-grade machines, high-pressure cleaning tools, and eco-friendly cleaning solutions that effectively remove dirt without damaging tiles or floors.
+
+All products used are safe for homes, offices, pets, and children. Steam cleaning is applied where suitable to eliminate germs and bacteria, ensuring a healthier indoor environment.`,
+
+  extraSectionPoints: [
+    "Apartments and villas",
+    "Homes and residential buildings",
+    "Offices and corporate spaces",
+    "Shops, showrooms, cafes, and restaurants",
+    "Hotels and commercial properties",
+  ],
+
+  offerNote:
+    "We also offer affordable packages and special discounts for regular and long-term customers.",
+
+  professionalSectionTitle: "Why Choose Hayakom Floor & Tile Cleaning?",
+
+  professionalSectionPoints: [
+    "Experienced and trained cleaning professionals",
+    "Advanced deep-cleaning and steam-cleaning technology",
+    "Safe, high-quality cleaning materials",
+    "Reliable service with attention to detail",
+    "Transparent pricing and customer-focused approach",
+  ],
+
+  finalSectionTitle: "Book Your Floor & Tile Cleaning Service Today",
+
+  finalSectionContent: [
+    "Refresh and protect your floors with professional cleaning from Hayakom Cleaning Services. Contact us today to schedule your floor and tile cleaning service and enjoy spotless, polished, and hygienic surfaces.",
+    "Our mission is to provide consistent quality and long-lasting cleanliness for every client.",
+    "We aim to build long-term relationships by offering honest service, professional standards, and dependable support.",
+  ],
+
+  videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
+
+  contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
+
+  image: HomeCleaningImg,
+},
+
 
   "move-in-move-out-cleaning": {
     title: "Move-In / Move-Out Cleaning",
