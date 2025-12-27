@@ -19,18 +19,7 @@ const Teams = () => {
   };
 
   const teamMembers = [
-    {
-      img: RajababuImg,
-      name: "Rajababu",
-      role: "Sales Executive (Operations)",
-      short:
-        "Dedicated Sales Executive managing sales operations and customer coordination.",
-      full: `Rajababu is a dedicated Sales Executive at Hayakom Cleaning Services, playing a key role in managing sales operations and customer coordination. He is passionate about understanding client needs and delivering the right cleaning solutions with clarity and confidence.
-
-With a strong focus on business growth, Rajababu handles client inquiries, service planning, pricing discussions, and follow-ups to ensure smooth operations from start to finish. His friendly and humble nature makes him easy to approach, and customers appreciate his clear communication and honest guidance.
-
-Rajababu works closely with the operations team to ensure services are delivered on time and as promised. His commitment to customer satisfaction and operational excellence helps Hayakom Cleaning Services build long-term relationships and trust across Kuwait.`,
-    },
+    
     {
       img: SrinivasImg,
       name: "Srinivas",
@@ -42,6 +31,18 @@ Rajababu works closely with the operations team to ensure services are delivered
 With strong leadership skills and a hands-on approach, Srinivas manages teams, schedules, and resources efficiently. He ensures that every job is completed on time, with proper quality checks and safety standards in place.
 
 Srinivas is committed to customer satisfaction and continuous improvement. His dedication, professionalism, and strong work ethic make him a key pillar of the Hayakom Cleaning Services team.`,
+    },
+    {
+      img: RajababuImg,
+      name: "Rajababu",
+      role: "Sales Executive (Operations)",
+      short:
+        "Dedicated Sales Executive managing sales operations and customer coordination.",
+      full: `Rajababu is a dedicated Sales Executive at Hayakom Cleaning Services, playing a key role in managing sales operations and customer coordination. He is passionate about understanding client needs and delivering the right cleaning solutions with clarity and confidence.
+
+With a strong focus on business growth, Rajababu handles client inquiries, service planning, pricing discussions, and follow-ups to ensure smooth operations from start to finish. His friendly and humble nature makes him easy to approach, and customers appreciate his clear communication and honest guidance.
+
+Rajababu works closely with the operations team to ensure services are delivered on time and as promised. His commitment to customer satisfaction and operational excellence helps Hayakom Cleaning Services build long-term relationships and trust across Kuwait.`,
     },
     {
       img: AkashImg,
