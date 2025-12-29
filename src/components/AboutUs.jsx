@@ -50,7 +50,7 @@ const AboutUs = () => {
             fresher, and healthier space you can rely on.
           </p>
 
-          <button className="about-btn">Learn More</button>
+          {/* <button className="about-btn">Learn More</button> */}
         </div>
 
         <div className="about-image">
