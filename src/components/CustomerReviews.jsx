@@ -14,7 +14,7 @@ const CustomerReviews = () => {
   const testimonials = [
     {
       img: Happy1,
-      text: `“Having found Healthy Home UAE via Instagram, the pricing was clear and the team
+      text: `“Having found Healthy Home Kuwait via Instagram, the pricing was clear and the team
       was very professional. AC duct cleaning was done perfectly…”`,
       name: "Chris Hammersley",
     },

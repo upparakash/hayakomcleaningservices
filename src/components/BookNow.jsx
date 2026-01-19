@@ -24,7 +24,7 @@ const BookNow = () => {
   <h2 className="book-title">Contact Hayakom Cleaning</h2>
 
   <p className="book-subtitle">
-    <strong>Company Name:</strong> Hayakom Hospitality Services Company <br />
+    <strong>Company Name:</strong> Hayakom Cleaning Services Company <br />
     <strong>Governorate:</strong> Farwaniya Governorate <br />
     <strong>Area:</strong> Khaitan (007) <br />
     <strong>Street:</strong> Street 68 <br />
