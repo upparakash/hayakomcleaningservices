@@ -105,9 +105,10 @@ const Navbar = () => {
         <HashLink smooth to="/#teams">Teams</HashLink>
         <HashLink smooth to="/#reviews">Clients</HashLink>
         <HashLink smooth to="/#about">About</HashLink>
-        <a href="https://housecleankuwait.com/%d8%a7%d8%aa%d8%b5%d9%84-%d8%a8%d9%86%d8%a7/">
+        <HashLink smooth to="/#book">Contact</HashLink>
+        {/* <a href="https://housecleankuwait.com/%d8%a7%d8%aa%d8%b5%d9%84-%d8%a8%d9%86%d8%a7/">
   Contact
-</a>
+</a> */}
 
       </ul>
 

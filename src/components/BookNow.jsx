@@ -42,14 +42,14 @@ const BookNow = () => {
     ></iframe>
   </div>
 
-  <a
+  {/* <a
     href="https://housecleankuwait.com/%d8%a7%d8%aa%d8%b5%d9%84-%d8%a8%d9%86%d8%a7/"
     target="_blank"
     rel="noopener noreferrer"
     className="submit-btn"
   >
     Go to Official Contact Page
-  </a>
+  </a> */}
 </section>
 
   );
