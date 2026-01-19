@@ -1,177 +1,85 @@
 .book-section {
-  padding: 60px 8%;
-  background: #f8f9fa;
-  font-family: "Poppins", sans-serif;
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 30px 20px;
+  text-align: center;
+  background: #f9fafb;
+  border-radius: 12px;
 }
 
 .book-title {
-  text-align: center;
-  font-size: 32px;
+  font-size: 2.2rem;
   font-weight: 700;
-  margin-bottom: 10px;
-  color: #222;
+  color: #0f172a;
+  margin-bottom: 12px;
 }
 
 .book-subtitle {
-  text-align: center;
-  font-size: 16px;
-  color: #555;
-  width: 70%;
-  margin: 0 auto 40px auto;
-  line-height: 1.5;
+  font-size: 1.05rem;
+  color: #475569;
+  line-height: 1.7;
+  margin-bottom: 30px;
 }
 
-.book-container {
-  display: flex;
-  gap: 30px;
-  align-items: stretch;
-  justify-content: center;
+.book-subtitle strong {
+  color: #0f172a;
 }
 
 .map-box {
-  flex: 1;
-  min-height: 450px;
-  border-radius: 10px;
+  width: 100%;
+  height: 350px;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
 }
 
-.form-box {
-  flex: 1;
-  background: #fff;
-  padding: 25px 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-}
-
-.form-row {
-  display: flex;
-  gap: 20px;
+.map-box iframe {
   width: 100%;
-}
-
-.form-group {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.form-group.full {
-  width: 100%;
-  margin-top: 15px;
-}
-
-.form-group label {
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #222;
-}
-
-.form-group input,
-.form-group textarea {
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 15px;
-  outline: none;
-  transition: 0.3s;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  border-color: #0077b6;
-  box-shadow: 0 0 5px rgba(0, 119, 182, 0.3);
+  height: 100%;
+  border: none;
 }
 
 .submit-btn {
-  width: 100%;
-  margin-top: 20px;
-  background: #0077b6;
-  color: #fff;
-  border: none;
-  padding: 14px;
-  border-radius: 6px;
-  font-size: 16px;
+  display: inline-block;
+  padding: 14px 36px;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: #ffffff;
+  font-size: 1rem;
   font-weight: 600;
-  cursor: pointer;
-  transition: 0.3s;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.3);
 }
 
 .submit-btn:hover {
-  background: #005f8d;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(37, 99, 235, 0.45);
+  background: linear-gradient(135deg, #1d4ed8, #1e40af);
 }
 
-/* 🌍 Responsive Design */
-@media (max-width: 992px) {
-  .book-container {
-    flex-direction: column;
+/* ✅ Mobile Responsive */
+@media (max-width: 768px) {
+  .book-section {
+    margin: 30px 15px;
+    padding: 25px 15px;
   }
 
-  .map-box {
-    height: 350px;
-  }
-}
-
-@media (max-width: 576px) {
   .book-title {
-    font-size: 26px;
+    font-size: 1.7rem;
   }
 
   .book-subtitle {
-    width: 90%;
+    font-size: 0.95rem;
   }
 
-  .form-box {
-    padding: 20px;
+  .map-box {
+    height: 260px;
   }
 
-  .form-row {
-    flex-direction: column;
+  .submit-btn {
+    width: 100%;
+    padding: 14px;
   }
-}
-
-.success-popup {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  background: #28a745;
-  color: white;
-  padding: 12px 20px;
-  border-radius: 8px;
-  font-size: 15px;
-  z-index: 9999;
-  animation: fadeInOut 3s ease-in-out;
-  max-width: 300px;
-  word-wrap: break-word;
-  text-align: center;
-}
-
-/* Mobile & Tablet Responsive */
-@media (max-width: 768px) {
-  .success-popup {
-    top: auto;
-    bottom: 20px;
-    right: 50%;
-    transform: translateX(50%);
-    width: 85%;
-    font-size: 14px;
-    padding: 10px 15px;
-  }
-}
-
-/* Very Small Phones (≤ 480px) */
-@media (max-width: 480px) {
-  .success-popup {
-    width: 90%;
-    font-size: 13px;
-    padding: 8px 12px;
-    border-radius: 6px;
-  }
-}
-
-@keyframes fadeInOut {
-  0% { opacity: 0; transform: translateY(-10px); }
-  10% { opacity: 1; transform: translateY(0); }
-  90% { opacity: 1; transform: translateY(0); }
-  100% { opacity: 0; transform: translateY(-10px); }
 }

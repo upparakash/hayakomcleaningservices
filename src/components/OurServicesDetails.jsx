@@ -66,7 +66,7 @@ const serviceData = {
     "We aim to build long-term relationships by offering honest service, professional standards, and dependable support.",
   ],
 
-  videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
+  videoUrl: "https://www.youtube.com/embed/Zvfe3z0rAno",
 
   contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
 
@@ -130,7 +130,7 @@ All cleaning products are eco-friendly, non-toxic, and safe for children, pets, 
     "We aim to build long-term relationships by offering honest service, professional standards, and dependable support.",
   ],
 
-  videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
+  videoUrl: "https://www.youtube.com/embed/Zvfe3z0rAno",
 
   contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
 
@@ -138,87 +138,88 @@ All cleaning products are eco-friendly, non-toxic, and safe for children, pets, 
 },
 
 
-  "maid-services": {
-    /* H1 */
-    title: "Maid Services",
+"maid-services": {
+  /* H1 */
+  title: "Maid Services",
 
-    /* Intro Section */
-    intro:
-      "Al-Ameka Maid Services in Kuwait provides reliable, professional, and well-trained domestic helpers to support your household needs. Our maids are carefully selected to ensure trust, efficiency, and high standards of service.",
+  /* Intro Section */
+  intro:
+    "Hayakom Cleaning Services in Kuwait provides reliable, professional, and well-trained domestic helpers to support your household needs. Our maids are carefully selected to ensure trust, efficiency, and high standards of service.",
 
-    points: [
-      "Daily, weekly, and monthly maid services based on your schedule.",
-      "Trained and verified maids with experience in household tasks.",
-      "Support for apartments, villas, and family homes of all sizes.",
-      "Flexible working hours to suit your convenience.",
-      "High standards of hygiene, discipline, and professionalism.",
-    ],
+  points: [
+    "Daily, weekly, and monthly maid services based on your schedule.",
+    "Trained and verified maids with experience in household tasks.",
+    "Support for apartments, villas, and family homes of all sizes.",
+    "Flexible working hours to suit your convenience.",
+    "High standards of hygiene, discipline, and professionalism.",
+  ],
 
-    /* h1 */
-    sectionTitle: "24-Hour Maid Service Company",
-    sectionIntro:
-      "Al-Ameka Cleaning® offers 24-hour maid service support, ensuring household assistance is available whenever you need it, including emergencies and special occasions.",
-    sectionPoints: [
-      "On-demand maid services available day and night.",
-      "Quick response time with immediate staff allocation.",
-      "Reliable replacements in case of absence.",
-      "Strict adherence to client instructions and privacy.",
-    ],
+  /* h1 */
+  sectionTitle: "24-Hour Maid Service Company",
+  sectionIntro:
+    "Hayakom Cleaning® offers 24-hour maid service support, ensuring household assistance is available whenever you need it, including emergencies and special occasions.",
+  sectionPoints: [
+    "On-demand maid services available day and night.",
+    "Quick response time with immediate staff allocation.",
+    "Reliable replacements in case of absence.",
+    "Strict adherence to client instructions and privacy.",
+  ],
 
-    /* h1 */
-    extraSectionTitle: "Professional Maid Services in Salmiya",
-    extraSectionIntro:
-      "If you are looking for professional maid services in Salmiya, Al-Ameka provides trained domestic helpers who handle daily household responsibilities with care and precision.",
-    extraSectionPoints: [
-      "Cleaning, washing, ironing, and basic household organization.",
-      "Support for families, working professionals, and elderly care.",
-      "Maid services for short-term and long-term requirements.",
-      "Well-supervised staff with performance monitoring.",
-    ],
+  /* h1 */
+  extraSectionTitle: "Professional Maid Services in Salmiya",
+  extraSectionIntro:
+    "If you are looking for professional maid services in Salmiya, Hayakom Cleaning provides trained domestic helpers who handle daily household responsibilities with care and precision.",
+  extraSectionPoints: [
+    "Cleaning, washing, ironing, and basic household organization.",
+    "Support for families, working professionals, and elderly care.",
+    "Maid services for short-term and long-term requirements.",
+    "Well-supervised staff with performance monitoring.",
+  ],
 
-    /* Optional Video Section */
-    videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
+  /* Optional Video Section */
+  videoUrl: "https://www.youtube.com/embed/Zvfe3z0rAno",
 
-    /* Long-form Company Content */
-    finalSectionContent: [
-      "Al-Ameka Maid Services is among the trusted service providers in Kuwait, offering domestic helpers who are trained to meet the highest household standards. Our recruitment process ensures reliability, experience, and professionalism.",
-      "We understand the importance of trust when allowing someone into your home. Therefore, all our maids undergo background verification and training to deliver consistent and quality service.",
-      "Our customer support team is available 24 hours a day to assist with scheduling, replacements, and service adjustments based on your changing needs.",
-    ],
+  /* Long-form Company Content */
+  finalSectionContent: [
+    "Hayakom Maid Services is among the trusted service providers in Kuwait, offering domestic helpers who are trained to meet the highest household standards. Our recruitment process ensures reliability, experience, and professionalism.",
+    "We understand the importance of trust when allowing someone into your home. Therefore, all our maids undergo background verification and training to deliver consistent and quality service.",
+    "Our customer support team is available 24 hours a day to assist with scheduling, replacements, and service adjustments based on your changing needs.",
+  ],
 
-    /* Image */
-    image: HomeCleaningImg,
+  /* Image */
+  image: HomeCleaningImg,
 
-    /* h1 */
-    professionalSectionTitle: "Professional Maid Service Company",
-    professionalSectionIntro:
-      "Al-Ameka Cleaning® employs experienced and disciplined maids who are committed to maintaining cleanliness, order, and comfort in your home.",
-    professionalSectionPoints: [
-      "Customer satisfaction is our top priority.",
-      "Maids trained in housekeeping, hygiene, and etiquette.",
-      "Guaranteed service quality with supervision support.",
-      "Respect for family privacy and cultural values.",
-      "Use of safe and approved cleaning materials when required.",
-    ],
+  /* h1 */
+  professionalSectionTitle: "Professional Maid Service Company",
+  professionalSectionIntro:
+    "Hayakom Cleaning® employs experienced and disciplined maids who are committed to maintaining cleanliness, order, and comfort in your home.",
+  professionalSectionPoints: [
+    "Customer satisfaction is our top priority.",
+    "Maids trained in housekeeping, hygiene, and etiquette.",
+    "Guaranteed service quality with supervision support.",
+    "Respect for family privacy and cultural values.",
+    "Use of safe and approved cleaning materials when required.",
+  ],
 
-    /* h1 */
-    apartmentSectionTitle: "Apartment Maid Services",
-    apartmentSectionIntro:
-      "Our apartment maid services are designed to help residents maintain a clean and organized living space without disrupting their daily routine.",
-    apartmentSectionPoints: [
-      "Ideal for studio, 1BHK, and family apartments.",
-      "No need to move furniture or vacate the house.",
-      "Flexible scheduling based on apartment rules.",
-      "Affordable packages suitable for all budgets.",
-    ],
+  /* h1 */
+  apartmentSectionTitle: "Apartment Maid Services",
+  apartmentSectionIntro:
+    "Our apartment maid services are designed to help residents maintain a clean and organized living space without disrupting their daily routine.",
+  apartmentSectionPoints: [
+    "Ideal for studio, 1BHK, and family apartments.",
+    "No need to move furniture or vacate the house.",
+    "Flexible scheduling based on apartment rules.",
+    "Affordable packages suitable for all budgets.",
+  ],
 
-    /* Contact Section */
-    contactNumbers: ["+965 55396880", "+965 50449213","+965 60446934"],
+  /* Contact Section */
+  contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
 
-    /* Closing CTA */
-    closingContent:
-      "With Al-Ameka Maid Services, you can enjoy a comfortable, clean, and well-managed home without stress. Contact us today to book professional maid services in Kuwait and experience the difference of trusted domestic support.",
-  },
+  /* Closing CTA */
+  closingContent:
+    "With Hayakom Maid Services, you can enjoy a comfortable, clean, and well-managed home without stress. Contact us today to book professional maid services in Kuwait and experience the difference of trusted domestic support.",
+},
+
   "curtain-cleaning-services": {
   title: "Curtain Cleaning Services in Kuwait",
 
@@ -277,7 +278,7 @@ All cleaning products used are eco-friendly, non-toxic, and safe for children an
     "We aim to build long-term relationships by offering honest service, professional standards, and dependable support.",
   ],
 
-  videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
+  videoUrl: "https://www.youtube.com/embed/Zvfe3z0rAno",
 
   contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
 
@@ -343,7 +344,7 @@ All cleaning agents used are eco-friendly and safe for the building surface and 
     "We aim to build long-term relationships by offering honest service, professional standards, and dependable support.",
   ],
 
-  videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
+  videoUrl: "https://www.youtube.com/embed/Zvfe3z0rAno",
 
   contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
 
@@ -409,7 +410,7 @@ We respect your working hours and ensure cleaning tasks are completed efficientl
     "We aim to build long-term relationships by offering honest service, professional standards, and dependable support.",
   ],
 
-  videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
+  videoUrl: "https://www.youtube.com/embed/Zvfe3z0rAno",
 
   contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
 
@@ -475,7 +476,7 @@ We use advanced cleaning techniques and safe products to protect fabric quality 
     "We aim to build long-term relationships by offering honest service, professional standards, and dependable support.",
   ],
 
-  videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
+  videoUrl: "https://www.youtube.com/embed/Zvfe3z0rAno",
 
   contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
 
@@ -540,7 +541,7 @@ Our expert team uses modern equipment and safe cleaning products to ensure these
     "We aim to build long-term relationships by offering honest service, professional standards, and dependable support.",
   ],
 
-  videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
+  videoUrl: "https://www.youtube.com/embed/Zvfe3z0rAno",
 
   contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
 
@@ -607,7 +608,7 @@ All products used are safe for homes, offices, pets, and children. Steam cleanin
     "We aim to build long-term relationships by offering honest service, professional standards, and dependable support.",
   ],
 
-  videoUrl: "https://www.youtube.com/embed/WRF1KljmgrM",
+  videoUrl: "https://www.youtube.com/embed/Zvfe3z0rAno",
 
   contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
 
@@ -615,71 +616,72 @@ All products used are safe for homes, offices, pets, and children. Steam cleanin
 },
 
 
-  "move-in-move-out-cleaning": {
-    title: "Move-In / Move-Out Cleaning",
+"move-in-move-out-cleaning": {
+  title: "Move-In / Move-Out Cleaning",
 
-    intro:
-      "Al-Ameka Cleaning Company provides professional move-in and move-out cleaning services in Kuwait to ensure properties are spotless, sanitized, and ready for occupancy.",
+  intro:
+    "Hayakom Cleaning provides professional move-in and move-out cleaning services in Kuwait to ensure properties are spotless, sanitized, and ready for occupancy.",
 
-    points: [
-      "Ideal for tenants, landlords, and property managers.",
-      "Deep cleaning before moving in or after moving out.",
-      "Ensures property meets handover and inspection standards.",
-      "Removes dust, stains, and odors from empty spaces.",
-    ],
+  points: [
+    "Ideal for tenants, landlords, and property managers.",
+    "Deep cleaning before moving in or after moving out.",
+    "Ensures property meets handover and inspection standards.",
+    "Removes dust, stains, and odors from empty spaces.",
+  ],
 
-    sectionTitle: "Professional Move-In / Move-Out Cleaning Services",
-    sectionIntro:
-      "Our trained cleaning team follows a detailed checklist to make sure every corner of the property is cleaned thoroughly and professionally.",
-    sectionPoints: [
-      "Complete cleaning of empty apartments and villas.",
-      "Wall, floor, and ceiling dust removal.",
-      "Kitchen and bathroom deep sanitization.",
-      "Window, door, and balcony cleaning.",
-    ],
+  sectionTitle: "Professional Move-In / Move-Out Cleaning Services",
+  sectionIntro:
+    "Our trained cleaning team follows a detailed checklist to make sure every corner of the property is cleaned thoroughly and professionally.",
+  sectionPoints: [
+    "Complete cleaning of empty apartments and villas.",
+    "Wall, floor, and ceiling dust removal.",
+    "Kitchen and bathroom deep sanitization.",
+    "Window, door, and balcony cleaning.",
+  ],
 
-    extraSectionTitle: "Reliable Cleaning for Property Handover",
-    extraSectionIntro:
-      "Al-Ameka ensures your property is ready for inspection, rental, or immediate occupancy without stress.",
-    extraSectionPoints: [
-      "Cleaning services for apartments, villas, and offices.",
-      "Flexible scheduling based on move dates.",
-      "Fast service with guaranteed quality.",
-      "Affordable pricing with no hidden charges.",
-    ],
+  extraSectionTitle: "Reliable Cleaning for Property Handover",
+  extraSectionIntro:
+    "Hayakom Cleaning ensures your property is ready for inspection, rental, or immediate occupancy without stress.",
+  extraSectionPoints: [
+    "Cleaning services for apartments, villas, and offices.",
+    "Flexible scheduling based on move dates.",
+    "Fast service with guaranteed quality.",
+    "Affordable pricing with no hidden charges.",
+  ],
 
-    videoUrl: "",
+  videoUrl: "",
 
-    finalSectionContent: [
-      "Moving can be stressful, and cleaning should not be an additional burden. Al-Ameka Cleaning Company takes care of the entire cleaning process so you can focus on your move.",
-      "Our team uses professional-grade equipment and safe cleaning materials to ensure excellent results in every service.",
-    ],
+  finalSectionContent: [
+    "Moving can be stressful, and cleaning should not be an additional burden. Hayakom Cleaning takes care of the entire cleaning process so you can focus on your move.",
+    "Our team uses professional-grade equipment and safe cleaning materials to ensure excellent results in every service.",
+  ],
 
-    image: HomeCleaningImg,
+  image: HomeCleaningImg,
 
-    professionalSectionTitle: "Professional Cleaning Team",
-    professionalSectionIntro:
-      "Our experienced cleaning professionals ensure your property is cleaned to the highest standards before handover.",
-    professionalSectionPoints: [
-      "Trained and supervised cleaning staff.",
-      "Attention to detail in every room.",
-      "Guaranteed satisfaction after service completion.",
-    ],
+  professionalSectionTitle: "Professional Cleaning Team",
+  professionalSectionIntro:
+    "Our experienced cleaning professionals ensure your property is cleaned to the highest standards before handover.",
+  professionalSectionPoints: [
+    "Trained and supervised cleaning staff.",
+    "Attention to detail in every room.",
+    "Guaranteed satisfaction after service completion.",
+  ],
 
-    apartmentSectionTitle: "Apartment & Villa Cleaning",
-    apartmentSectionIntro:
-      "We provide move-in and move-out cleaning for all property types.",
-    apartmentSectionPoints: [
-      "Studio and apartment cleaning.",
-      "Villa and duplex cleaning.",
-      "Commercial space cleaning.",
-    ],
+  apartmentSectionTitle: "Apartment & Villa Cleaning",
+  apartmentSectionIntro:
+    "We provide move-in and move-out cleaning for all property types.",
+  apartmentSectionPoints: [
+    "Studio and apartment cleaning.",
+    "Villa and duplex cleaning.",
+    "Commercial space cleaning.",
+  ],
 
-    contactNumbers: ["+965 55396880", "+965 50449213","+965 60446934"],
+  contactNumbers: ["+965 55396880", "+965 50449213", "+965 60446934"],
 
-    closingContent:
-      "Choose Al-Ameka Move-In / Move-Out Cleaning Services to ensure a smooth transition into or out of your property. Contact us today for professional and reliable cleaning solutions in Kuwait.",
-  },
+  closingContent:
+    "Choose Hayakom Move-In / Move-Out Cleaning Services to ensure a smooth transition into or out of your property. Contact us today for professional and reliable cleaning solutions in Kuwait.",
+},
+
 };
 
 const ServiceDetail = () => {

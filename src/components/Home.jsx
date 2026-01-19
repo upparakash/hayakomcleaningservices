@@ -101,7 +101,7 @@ const Home = () => {
         <OurServices />
       </section>
 
-      {/* ⭐ Display Teams Component here */}
+      {/* Display Teams Component here */}
       <section id="teams">
         <Teams />
       </section>

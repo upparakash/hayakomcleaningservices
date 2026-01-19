@@ -22,7 +22,7 @@ const servicesEN = [
     icon: "https://cdn-icons-png.flaticon.com/512/8099/8099430.png",
     description:
       "Intensive deep cleaning service covering every corner for complete sanitation.",
-    slug: "deep-cleaning-services",
+    slug: "home-cleaning-services",
   },
   {
     title: "OFFICE & COMMERCIAL CLEANING",

@@ -28,7 +28,7 @@ const Navbar = () => {
           </a>
 
           <a
-            href="https://www.instagram.com/sreenumadineni1992/"
+            href="https://www.instagram.com/hayakomservice/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
@@ -37,7 +37,7 @@ const Navbar = () => {
           </a>
 
           <a
-            href="https://www.facebook.com/profile.php?id=61584853445663"
+            href="https://www.facebook.com/profile.php?id=61586310031233"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook"
@@ -105,7 +105,10 @@ const Navbar = () => {
         <HashLink smooth to="/#teams">Teams</HashLink>
         <HashLink smooth to="/#reviews">Clients</HashLink>
         <HashLink smooth to="/#about">About</HashLink>
-        <HashLink smooth to="/#book">Contact</HashLink>
+        <a href="https://housecleankuwait.com/%d8%a7%d8%aa%d8%b5%d9%84-%d8%a8%d9%86%d8%a7/">
+  Contact
+</a>
+
       </ul>
 
       {/* Mobile Menu Icon */}
